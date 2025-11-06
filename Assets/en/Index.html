@@ -1,56 +1,51 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>PLACEHOLDER_GAME_NAME – Official Page</title>
+  <title>Oru Studio – Mobile games</title>
 
   <!-- Canonical + i18n -->
-  <link rel="canonical" href="https://PLACEHOLDER_DOMAIN/en/">
-  <link rel="alternate" href="https://PLACEHOLDER_DOMAIN/en/" hreflang="en">
-  <link rel="alternate" href="https://PLACEHOLDER_DOMAIN/es/" hreflang="es">
-  <link rel="alternate" href="https://PLACEHOLDER_DOMAIN/" hreflang="x-default">
+  <link rel="canonical" href="https://oru.studio/en/">
+  <link rel="alternate" href="https://oru.studio/en/" hreflang="en">
+  <link rel="alternate" href="https://oru.studio/es/" hreflang="es">
+  <link rel="alternate" href="https://oru.studio/" hreflang="x-default">
 
   <!-- Meta SEO -->
   <meta name="description"
-    content="Care, play and decorate in PLACEHOLDER_GAME_NAME. Download now for iOS and Android!">
+    content="Oru Studio: indie mobile game studio. Discover our titles and download on iOS & Android.">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="PLACEHOLDER_GAME_NAME – Official Page">
-  <meta property="og:description" content="Care, play and decorate in PLACEHOLDER_GAME_NAME. Download now!">
-  <meta property="og:image" content="https://PLACEHOLDER_DOMAIN/assets/og-cover.jpg">
-  <meta property="og:url" content="https://PLACEHOLDER_DOMAIN/en/">
+  <meta property="og:title" content="Oru Studio – Mobile games">
+  <meta property="og:description" content="Indie studio crafting polished mobile titles for iOS and Android.">
+  <meta property="og:image" content="https://oru.studioassets/og-cover.jpg">
+  <meta property="og:url" content="https://oru.studio/en/">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="PLACEHOLDER_GAME_NAME – Official Page">
-  <meta name="twitter:description" content="Care, play and decorate in PLACEHOLDER_GAME_NAME. Download now!">
-  <meta name="twitter:image" content="https://PLACEHOLDER_DOMAIN/assets/og-cover.jpg">
+  <meta name="twitter:title" content="Oru Studio – Mobile games">
+  <meta name="twitter:description" content="Indie studio crafting polished mobile titles for iOS and Android.">
+  <meta name="twitter:image" content="https://oru.studioassets/og-cover.jpg">
 
-  <!-- Schema.org -->
+  <!-- Schema.org (Organization) -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
-    "@type":"VideoGame",
-    "name":"PLACEHOLDER_GAME_NAME",
-    "applicationCategory":"GameApplication",
-    "operatingSystem":"iOS, Android",
-    "publisher":{"@type":"Organization","name":"PLACEHOLDER_STUDIO"},
-    "url":"https://PLACEHOLDER_DOMAIN/en/",
-    "image":"https://PLACEHOLDER_DOMAIN/assets/og-cover.jpg",
-    "offers":[
-      {"@type":"Offer","category":"download","url":"https://apps.apple.com/app/idPLACEHOLDER_APPLE_ID"},
-      {"@type":"Offer","category":"download","url":"https://play.google.com/store/apps/details?id=PLACEHOLDER_PACKAGE"}
-    ]
+    "@type":"Organization",
+    "name":"Oru Studio",
+    "url":"https://oru.studio/",
+    "logo":"https://oru.studioassets/images/logo.png",
+    "sameAs":[ "PLACEHOLDER_IG","PLACEHOLDER_TW","PLACEHOLDER_LI","PLACEHOLDER_YT","PLACEHOLDER_FB" ]
   }
   </script>
 
   <!-- PWA / Icons -->
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="icon" sizes="32x32" href="/assets/icons/favicon-32.png">
-  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
 
   <!-- Perf -->
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
@@ -74,23 +69,36 @@
       border: 0;
     }
 
-    .active-link {
-      color: #2563eb;
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 9999px;
+      background: #cbd5e1;
+      cursor: pointer
+    }
+
+    .dot.active {
+      background: #2563eb
+    }
+
+    .slide-fade {
+      transition: opacity .4s ease;
     }
   </style>
 </head>
 
 <body class="bg-gray-100 text-gray-800">
-  <a href="#hero" class="sr-only">Skip to content</a>
+  <a href="#slider" class="sr-only">Skip to content</a>
 
-  <!-- Header -->
+  <!-- Header (studio) -->
   <header class="bg-white shadow sticky top-0 z-50">
     <div class="container mx-auto px-4 py-4 flex items-center justify-between">
-      <a href="/en/"><img src="/assets/images/logo.png" alt="PLACEHOLDER_STUDIO Logo" class="h-10" loading="eager"></a>
+      <a href="/en/"><img src="assets/images/logo.png" alt="Oru Studio Logo" class="h-10" loading="eager"></a>
       <nav class="space-x-6">
-        <a href="#games" class="nav-link text-gray-600 hover:text-blue-600">Games</a>
-        <a href="#about" class="nav-link text-gray-600 hover:text-blue-600">About</a>
-        <a href="#privacy" class="nav-link text-gray-600 hover:text-blue-600">Privacy</a>
+        <a href="#portfolio" class="text-gray-600 hover:text-blue-600">Portfolio</a>
+        <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+        <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+        <a href="#privacy" class="text-gray-600 hover:text-blue-600">Privacy</a>
       </nav>
       <div class="space-x-2">
         <a href="/es/" class="px-2 py-1 border rounded">ES</a>
@@ -99,27 +107,36 @@
     </div>
   </header>
 
-  <!-- Hero -->
-  <section id="hero" class="bg-blue-600 text-white py-20">
-    <div class="container mx-auto px-4 text-center">
-      <h1 class="text-4xl font-bold mb-4">Welcome to PLACEHOLDER_GAME_NAME!</h1>
-      <p class="mb-8">Dive into an epic mobile adventure. Download today!</p>
-      <div class="flex gap-4 justify-center items-center flex-wrap">
-        <a href="https://apps.apple.com/app/idPLACEHOLDER_APPLE_ID" aria-label="Download on the App Store">
-          <img src="/assets/badges/appstore-en.svg" alt="Download on the App Store" class="h-12" loading="lazy">
-        </a>
-        <a href="https://play.google.com/store/apps/details?id=PLACEHOLDER_PACKAGE" aria-label="Get it on Google Play">
-          <img src="/assets/badges/googleplay-en.png" alt="Get it on Google Play" class="h-12" loading="lazy">
-        </a>
+  <!-- Slider (controls features) -->
+  <section id="slider" class="bg-blue-600 text-white">
+    <div class="container mx-auto px-4 py-12 md:py-16">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 id="slide-title" class="text-4xl font-bold mb-4 slide-fade">PLACEHOLDER_GAME_NAME</h1>
+          <p id="slide-sub" class="mb-6 text-lg slide-fade">Care, play & decorate. Download today!</p>
+          <div id="slide-badges" class="flex gap-4 items-center flex-wrap slide-fade"></div>
+        </div>
+        <div class="text-center">
+          <img id="slide-image" src="assets/hero/placeholder.webp" alt="Game hero image"
+            class="w-full max-w-xl mx-auto rounded-lg shadow-lg slide-fade" loading="eager">
+        </div>
+      </div>
+
+      <div class="mt-8 flex items-center justify-between">
+        <button id="prevBtn" class="bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold"
+          aria-label="Previous">‹</button>
+        <div id="dots" class="flex gap-2"></div>
+        <button id="nextBtn" class="bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold"
+          aria-label="Next">›</button>
       </div>
     </div>
   </section>
 
-  <!-- Features -->
-  <section id="games" class="py-16 bg-white">
+  <!-- Portfolio / Features -->
+  <section id="portfolio" class="py-16 bg-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-8 text-center">Key Features</h2>
-      <div id="games-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
+      <h2 class="text-3xl font-bold mb-8 text-center">Featured game – Key features</h2>
+      <div id="features-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
     </div>
   </section>
 
@@ -134,22 +151,18 @@
   <!-- About -->
   <section id="about" class="py-16 bg-white">
     <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold mb-4">About Us</h2>
-      <p class="text-gray-700 max-w-2xl mx-auto">We are an indie studio (PLACEHOLDER_STUDIO) crafting unique mobile
-        experiences.</p>
+      <h2 class="text-3xl font-bold mb-4">About Oru Studio</h2>
+      <p class="text-gray-700 max-w-2xl mx-auto">Indie studio focused on cozy mobile simulators. We craft accessible,
+        highly polished experiences.</p>
     </div>
   </section>
 
-  <!-- Newsletter -->
-  <section id="stay-in-touch" class="py-16">
+  <!-- Contact -->
+  <section id="contact" class="py-16">
     <div class="container mx-auto px-4 text-center">
-      <h2 class="text-2xl font-bold mb-4">Stay in Touch</h2>
-      <p class="mb-6">Subscribe to receive news and updates.</p>
-      <form class="max-w-md mx-auto flex" action="PLACEHOLDER_FORM_ACTION" method="post">
-        <input type="email" placeholder="Your email" class="w-full p-3 border rounded-l-lg focus:outline-none"
-          aria-label="Email" required>
-        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-r-lg">Subscribe</button>
-      </form>
+      <h2 class="text-2xl font-bold mb-4">Contact</h2>
+      <p class="mb-6">Press, partnerships or support? Email us: <a class="text-blue-600 hover:underline"
+          href="mailto:PLACEHOLDER_SUPPORT_EMAIL">PLACEHOLDER_SUPPORT_EMAIL</a></p>
     </div>
   </section>
 
@@ -158,19 +171,12 @@
     <div class="container mx-auto px-4 max-w-4xl">
       <h2 class="text-3xl font-bold mb-4">Privacy Policy</h2>
       <p class="text-sm text-gray-500 mb-6">Last updated: 2025-11-06</p>
-      <p class="mb-4">This policy explains how <strong>PLACEHOLDER_STUDIO</strong> processes data in
-        <strong>PLACEHOLDER_GAME_NAME</strong>.</p>
-      <h3 class="text-xl font-semibold mt-6 mb-2">Data we process</h3>
       <ul class="list-disc pl-6 space-y-1">
-        <li>Usage data for analytics.</li>
-        <li>Identifiers (advertising ID) for ads (AdMob).</li>
+        <li>Usage data (analytics).</li>
+        <li>Advertising ID for ads (AdMob).</li>
         <li>Diagnostics (crashes, performance).</li>
       </ul>
-      <h3 class="text-xl font-semibold mt-6 mb-2">EU consent</h3>
-      <p class="mb-4">We use a compatible consent manager (Google UMP) for personalized ads in the EEA/UK. You can
-        change your choice in the app’s <em>Privacy</em> menu.</p>
-      <h3 class="text-xl font-semibold mt-6 mb-2">Rights & contact</h3>
-      <p>Requests for access/rectification/erasure: <a class="text-blue-600 hover:underline"
+      <p class="mt-4">Rights & contact: <a class="text-blue-600 hover:underline"
           href="mailto:PLACEHOLDER_SUPPORT_EMAIL">PLACEHOLDER_SUPPORT_EMAIL</a>.</p>
     </div>
   </section>
@@ -181,7 +187,7 @@
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="space-x-4 mb-4 md:mb-0">
           <a href="#privacy" class="hover:text-white">Privacy</a>
-          <a href="#stay-in-touch" class="hover:text-white">Contact</a>
+          <a href="#contact" class="hover:text-white">Contact</a>
           <a href="/es/" class="hover:text-white">ES</a>
         </div>
         <div class="space-x-4 text-xl">
@@ -194,64 +200,103 @@
           <a href="PLACEHOLDER_FB" aria-label="Facebook" class="hover:text-blue-800"><i class="fab fa-facebook"></i></a>
         </div>
       </div>
-      <p class="mt-4 text-center text-sm">© 2025 PLACEHOLDER_STUDIO. All rights reserved.</p>
+      <p class="mt-4 text-center text-sm">© 2025 Oru Studio. All rights reserved.</p>
     </div>
   </footer>
 
-  <!-- JS dynamic + UX -->
+  <!-- JS slider + features/screens rebind -->
   <script>
-    const features = [
-      { img: '/assets/images/feature1.webp', title: 'Care', desc: 'Care for your pet!' },
-      { img: '/assets/images/feature2.webp', title: 'Play', desc: 'Play together!' },
-      { img: '/assets/images/feature3.webp', title: 'Decorate', desc: 'Decorate your house!' }
+    const slides = [
+      {
+        title: "PLACEHOLDER_GAME_NAME",
+        subtitle: "Care, play & decorate. Download today!",
+        image: "assets/hero/HeroPawpal.webp",
+        badges: [
+          { href: "https://apps.apple.com/app/idPLACEHOLDER_APPLE_ID", img: "assets/badges/appstore-en.svg", alt: "Download on the App Store" },
+          { href: "https://play.google.com/store/apps/details?id=PLACEHOLDER_PACKAGE", img: "assets/badges/googleplay-en.png", alt: "Get it on Google Play" }
+        ],
+        features: [
+          { img: "assets/images/feature1.webp", title: "Care", desc: "Care for your pet!" },
+          { img: "assets/images/feature2.webp", title: "Play", desc: "Play together!" },
+          { img: "assets/images/feature3.webp", title: "Decorate", desc: "Decorate your house!" }
+        ],
+        screenshots: [
+          "assets/images/screenshot1.webp",
+          "assets/images/screenshot2.webp",
+          "assets/images/screenshot3.webp"
+        ]
+      }
     ];
-    const screenshots = [
-      '/assets/images/screenshot1.webp',
-      '/assets/images/screenshot2.webp',
-      '/assets/images/screenshot3.webp'
-    ];
-    const gamesGrid = document.getElementById('games-grid');
-    features.forEach(f => {
-      const card = document.createElement('div');
-      card.className = 'text-center';
-      card.innerHTML = `
-        <img src="${f.img}" alt="${f.title}" loading="lazy"
-             class="mx-auto mb-4 w-32 h-32 object-contain">
-        <h3 class="text-xl font-semibold mb-2">${f.title}</h3>
-        <p>${f.desc}</p>`;
-      gamesGrid.appendChild(card);
-    });
+
+    let current = 0;
+    const titleEl = document.getElementById('slide-title');
+    const subEl = document.getElementById('slide-sub');
+    const imgEl = document.getElementById('slide-image');
+    const badgesEl = document.getElementById('slide-badges');
+    const dotsEl = document.getElementById('dots');
+    const featuresGrid = document.getElementById('features-grid');
     const shotsGrid = document.getElementById('screenshots-grid');
-    screenshots.forEach(src => {
-      const img = document.createElement('img');
-      img.src = src;
-      img.alt = src.split('/').pop();
-      img.loading = 'lazy';
-      img.className = 'rounded-lg shadow-md';
-      shotsGrid.appendChild(img);
-    });
 
-    // Smooth scroll
-    document.querySelectorAll('a[href^="#"]').forEach(a => {
-      a.addEventListener('click', e => {
-        const id = a.getAttribute('href'); const el = document.querySelector(id);
-        if (el) { e.preventDefault(); el.scrollIntoView({ behavior: 'smooth' }); }
+    function renderDots() {
+      dotsEl.innerHTML = '';
+      slides.forEach((_, i) => {
+        const d = document.createElement('button');
+        d.className = 'dot' + (i === current ? ' active' : '');
+        d.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+        d.addEventListener('click', () => go(i));
+        dotsEl.appendChild(d);
       });
-    });
+    }
 
-    // Active section highlight
-    const navLinks = [...document.querySelectorAll('.nav-link')];
-    const obs = new IntersectionObserver(entries => {
-      entries.forEach(en => {
-        const id = en.target.getAttribute('id');
-        const link = navLinks.find(l => l.getAttribute('href') === '#' + id);
-        if (link) { en.isIntersecting ? link.classList.add('active-link') : link.classList.remove('active-link'); }
+    function fadeSwap(el, cb) {
+      el.style.opacity = 0;
+      setTimeout(() => { cb(); el.style.opacity = 1; }, 180);
+    }
+
+    function renderSlide() {
+      const s = slides[current];
+      fadeSwap(titleEl, () => titleEl.textContent = s.title);
+      fadeSwap(subEl, () => subEl.textContent = s.subtitle);
+      fadeSwap(imgEl, () => { imgEl.src = s.image; imgEl.alt = s.title + " hero"; });
+
+      badgesEl.innerHTML = '';
+      s.badges.forEach(b => {
+        const a = document.createElement('a');
+        a.href = b.href; a.ariaLabel = b.alt; a.innerHTML = `<img src="${b.img}" alt="${b.alt}" class="h-12" loading="lazy">`;
+        badgesEl.appendChild(a);
       });
-    }, { threshold: 0.6 });
-    ['games', 'about', 'privacy'].forEach(id => {
-      const sec = document.getElementById(id);
-      if (sec) obs.observe(sec);
-    });
+
+      featuresGrid.innerHTML = '';
+      s.features.forEach(f => {
+        const card = document.createElement('div');
+        card.className = 'text-center';
+        card.innerHTML = `
+          <img src="${f.img}" alt="${f.title}" loading="lazy" class="mx-auto mb-4 w-32 h-32 object-contain">
+          <h3 class="text-xl font-semibold mb-2">${f.title}</h3>
+          <p>${f.desc}</p>`;
+        featuresGrid.appendChild(card);
+      });
+
+      shotsGrid.innerHTML = '';
+      s.screenshots.forEach(src => {
+        const img = document.createElement('img');
+        img.src = src; img.alt = src.split('/').pop(); img.loading = 'lazy';
+        img.className = 'rounded-lg shadow-md';
+        shotsGrid.appendChild(img);
+      });
+
+      renderDots();
+    }
+
+    function go(n) {
+      current = (n + slides.length) % slides.length;
+      renderSlide();
+    }
+
+    document.getElementById('prevBtn').addEventListener('click', () => go(current - 1));
+    document.getElementById('nextBtn').addEventListener('click', () => go(current + 1));
+
+    renderSlide();
   </script>
 </body>
 
