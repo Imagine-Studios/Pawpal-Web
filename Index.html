@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nombre de tu Juego - Landing Page</title>
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <!-- FontAwesome para iconos de redes sociales -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pEc6BJ..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="#"><img src="assets/images/logo.png" alt="Logo" class="h-10"></a>
+      <nav class="space-x-8">
+        <a href="#games" class="text-gray-600 hover:text-blue-600">Games</a>
+        <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+        <!-- NUEVO: enlace a la política -->
+        <a href="#privacy" class="text-gray-600 hover:text-blue-600">Privacy</a>
+      </nav>
+      <div class="space-x-4 text-xl">
+        <a href="#" aria-label="Instagram" class="hover:text-pink-500"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="X (Twitter)" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn" class="hover:text-blue-700"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="YouTube" class="hover:text-red-600"><i class="fab fa-youtube"></i></a>
+        <a href="#" aria-label="Facebook" class="hover:text-blue-800"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="bg-blue-600 text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold mb-4">¡Bienvenido a [Nombre del Juego]!</h1>
+      <p class="mb-8">Sumérgete en una aventura épica móvil. ¡Descárgalo hoy!</p>
+      <div class="space-x-4">
+        <a href="#" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold">App Store</a>
+        <a href="#" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold">Google Play</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Games Section -->
+  <section id="games" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Características Principales</h2>
+      <div id="games-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section id="screenshots" class="bg-gray-200 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Screenshots</h2>
+      <div id="screenshots-grid" class="grid grid-cols-1 md:grid-cols-3 gap-4"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">About Us</h2>
+      <p class="text-gray-700 max-w-2xl mx-auto">Somos un estudio indie apasionado por crear experiencias móviles
+        únicas. Nuestra misión es llevar diversión y creatividad a tu bolsillo.</p>
+    </div>
+  </section>
+
+  <!-- Stay in Touch -->
+  <section id="stay-in-touch" class="py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold mb-4">Stay in Touch</h2>
+      <p class="mb-6">Suscríbete para recibir noticias y actualizaciones exclusivas.</p>
+      <form class="max-w-md mx-auto flex">
+        <input type="email" placeholder="Tu correo electrónico"
+          class="w-full p-3 border rounded-l-lg focus:outline-none" aria-label="Correo electrónico">
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-r-lg">Suscribirse</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- NUEVO: Política de privacidad -->
+  <section id="privacy" class="py-16 bg-white border-t">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-3xl font-bold mb-4">Política de privacidad</h2>
+      <p class="text-sm text-gray-500 mb-6">Última actualización: <span>06/11/2025</span></p>
+
+      <p class="mb-4">
+        Esta política explica cómo <strong>TuEstudio</strong> trata los datos en la app
+        <strong>Nombre del Juego</strong>.
+      </p>
+
+      <h3 class="text-xl font-semibold mt-6 mb-2">Datos que tratamos</h3>
+      <ul class="list-disc pl-6 space-y-1">
+        <li><strong>Datos de uso</strong> (p. ej., eventos, tiempo de sesión) para analítica.</li>
+        <li><strong>Identificadores del dispositivo</strong> (incluido el ID de publicidad) para anuncios.</li>
+        <li><strong>Datos de diagnóstico</strong> (crashes y rendimiento).</li>
+      </ul>
+
+      <h3 class="text-xl font-semibold mt-6 mb-2">Finalidades</h3>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>Proporcionar y mejorar la app.</li>
+        <li>Obtener estadísticas agregadas de uso.</li>
+        <li>Monetización mediante publicidad.</li>
+      </ul>
+
+      <h3 class="text-xl font-semibold mt-6 mb-2">Proveedores</h3>
+      <p class="mb-2">Usamos servicios de terceros que pueden tratar datos en nuestro nombre:</p>
+      <ul class="list-disc pl-6 space-y-1">
+        <li><strong>Google AdMob</strong> (publicidad y medición).</li>
+        <li><strong>Analytics</strong> (por ejemplo, Firebase/Unity Analytics) — si aplica.</li>
+        <li><strong>Crashlytics</strong> (diagnóstico) — si aplica.</li>
+      </ul>
+      <p class="mt-2 text-sm text-gray-600">Consulta las políticas de cada proveedor para más detalles.</p>
+
+      <h3 class="text-xl font-semibold mt-6 mb-2">Consentimiento en la UE (AdMob)</h3>
+      <p class="mb-4">
+        Para usuarios del EEE y Reino Unido solicitamos consentimiento para anuncios personalizados mediante un
+        gestor de consentimiento compatible. Puedes cambiar tu elección desde el menú de <em>Privacidad</em> dentro de
+        la app.
+      </p>
+
+      <h3 class="text-xl font-semibold mt-6 mb-2">Conservación</h3>
+      <p class="mb-4">Conservamos los datos el tiempo necesario para las finalidades indicadas y según requisitos
+        legales.</p>
+
+      <h3 class="text-xl font-semibold mt-6 mb-2">Tus derechos</h3>
+      <p class="mb-2">
+        Si resides en el EEE/UK, puedes ejercer acceso, rectificación, oposición o supresión de tus datos.
+        Escríbenos a <a class="text-blue-600 hover:underline"
+          href="mailto:support@oru.studio">soporte@tuestudio.com</a>.
+      </p>
+
+      <h3 class="text-xl font-semibold mt-6 mb-2">Contacto</h3>
+      <p>Responsable: <strong>TuEstudio</strong>. Email:
+        <a class="text-blue-600 hover:underline" href="support@oru.studio">soporte@tuestudio.com</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-400 py-8">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="space-x-4 mb-4 md:mb-0">
+          <a href="#privacy" class="hover:text-white">Privacy</a>
+          <a href="#stay-in-touch" class="hover:text-white">Stay in Touch</a>
+        </div>
+        <div class="space-x-4 text-xl">
+          <a href="#" aria-label="Instagram" class="hover:text-pink-500"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="X (Twitter)" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn" class="hover:text-blue-700"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="YouTube" class="hover:text-red-600"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Facebook" class="hover:text-blue-800"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+      <p class="mt-4 text-center text-sm">© 2025 Tu Empresa. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript para cargar imágenes dinámicamente -->
+  <script>
+    // Define tus imágenes y características aquí
+    const features = [
+      { img: 'assets/images/feature1.png', title: 'Care', desc: 'Care your pet!.' },
+      { img: 'assets/images/feature2.png', title: 'Play', desc: 'Play with him!.' },
+      { img: 'assets/images/feature3.png', title: 'Custom', desc: 'Decorate your House!.' }
+    ];
+    const screenshots = [
+      'assets/images/screenshot1.png',
+      'assets/images/screenshot2.png',
+      'assets/images/screenshot3.png'
+    ];
+
+    // Render features
+    const gamesGrid = document.getElementById('games-grid');
+    features.forEach(f => {
+      const card = document.createElement('div');
+      card.className = 'text-center';
+      card.innerHTML = `
+        <img src="${f.img}" alt="${f.title}" class="mx-auto mb-4 w-32 h-32 object-contain">
+        <h3 class="text-xl font-semibold mb-2">${f.title}</h3>
+        <p>${f.desc}</p>
+      `;
+      gamesGrid.appendChild(card);
+    });
+
+    // Render screenshots
+    const shotsGrid = document.getElementById('screenshots-grid');
+    screenshots.forEach(src => {
+      const img = document.createElement('img');
+      img.src = src;
+      img.alt = src.split('/').pop();
+      img.className = 'rounded-lg shadow-md';
+      shotsGrid.appendChild(img);
+    });
+  </script>
+
+</body>
+
+</html>
