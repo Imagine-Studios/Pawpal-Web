@@ -1,8 +1,0 @@
-  { img: 'J:/PROYECTOS/STUDIO RAYCO/Proyectos/PawPal/LandingPage/Assets/Images/feature1', title: 'Care your pet!', desc: 'prueba.' },
-      { img: 'J:/PROYECTOS/STUDIO RAYCO/Proyectos/PawPal/LandingPage/Assets/Images/feature2', title: 'Play with him!', desc: 'pruebita.' },
-      { img: 'J:/PROYECTOS/STUDIO RAYCO/Proyectos/PawPal/LandingPage/Assets/Images/feature3', title: 'Decorate your House!', desc: 'Descripción breve.' }
-    ];
-    const screenshots = [
-      'J:/PROYECTOS/STUDIO RAYCO/Proyectos/PawPal/LandingPage/Assets/Images/screenshot1',
-      'J:/PROYECTOS/STUDIO RAYCO/Proyectos/PawPal/LandingPage/Assets/Images/screenshot2',
-      'J:/PROYECTOS/STUDIO RAYCO/Proyectos/PawPal/LandingPage/Assets/Imagesscreenshot3'
