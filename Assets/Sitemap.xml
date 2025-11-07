@@ -2,22 +2,49 @@
 <urlset 
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home ES -->
   <url>
     <loc>https://PLACEHOLDER_DOMAIN/es/</loc>
-    <lastmod>2025-11-06</lastmod>
+    <lastmod>YYYY-MM-DD</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://PLACEHOLDER_DOMAIN/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://PLACEHOLDER_DOMAIN/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://PLACEHOLDER_DOMAIN/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://PLACEHOLDER_DOMAIN/"/>
   </url>
+
+  <!-- Home EN -->
   <url>
     <loc>https://PLACEHOLDER_DOMAIN/en/</loc>
-    <lastmod>2025-11-06</lastmod>
+    <lastmod>YYYY-MM-DD</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://PLACEHOLDER_DOMAIN/es/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://PLACEHOLDER_DOMAIN/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://PLACEHOLDER_DOMAIN/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://PLACEHOLDER_DOMAIN/"/>
   </url>
+
+  <!-- Política del juego ES -->
+  <url>
+    <loc>https://PLACEHOLDER_DOMAIN/es/politica-privacidad-JUEGO.html</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://PLACEHOLDER_DOMAIN/es/politica-privacidad-JUEGO.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://PLACEHOLDER_DOMAIN/en/GAME-privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://PLACEHOLDER_DOMAIN/"/>
+  </url>
+
+  <!-- Game privacy EN -->
+  <url>
+    <loc>https://PLACEHOLDER_DOMAIN/en/GAME-privacy-policy.html</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://PLACEHOLDER_DOMAIN/en/GAME-privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://PLACEHOLDER_DOMAIN/es/politica-privacidad-JUEGO.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://PLACEHOLDER_DOMAIN/"/>
+  </url>
+
 </urlset>
