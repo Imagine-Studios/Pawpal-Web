@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  xmlns="http://sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:xhtml="http://w3.org/1999/xhtml">
 
   <!-- Home ES -->
   <url>
-    <loc>https:www.www.oru.studio/es/</loc>
+    <loc>oru.studiooru.studio/es/</loc>
     <lastmod>YYYY-MM-DD</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https:www.www.oru.studio/es/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https:www.www.oru.studio/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https:www.www.oru.studio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="/"/>
   </url>
 
   <!-- Home EN -->
   <url>
-    <loc>https:www.www.oru.studio/en/</loc>
+    <loc>oru.studiooru.studio/en/</loc>
     <lastmod>YYYY-MM-DD</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https:www.www.oru.studio/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https:www.www.oru.studio/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https:www.www.oru.studio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="/"/>
   </url>
 
   <!-- Política del juego ES -->
   <url>
-    <loc>https:www.www.oru.studio/es/politica-privacidad-JUEGO.html</loc>
+    <loc>oru.studiooru.studio/es/politica-privacidad-JUEGO.html</loc>
     <lastmod>YYYY-MM-DD</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https:www.www.oru.studio/es/politica-privacidad-JUEGO.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https:www.www.oru.studio/en/GAME-privacy-policy.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https:www.www.oru.studio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="/es/politica-privacidad-JUEGO.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="/en/GAME-privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="/"/>
   </url>
 
   <!-- Game privacy EN -->
   <url>
-    <loc>https:www.www.oru.studio/en/GAME-privacy-policy.html</loc>
+    <loc>oru.studiooru.studio/en/GAME-privacy-policy.html</loc>
     <lastmod>YYYY-MM-DD</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https:www.www.oru.studio/en/GAME-privacy-policy.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https:www.www.oru.studio/es/politica-privacidad-JUEGO.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https:www.www.oru.studio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="/en/GAME-privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="/es/politica-privacidad-JUEGO.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="/"/>
   </url>
 
 </urlset>
