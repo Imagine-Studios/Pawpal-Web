@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Oru Studio – Juegos móviles</title>
+
+  <!-- Canonical + i18n -->
+  <link rel="canonical" href="https://oru.studio/es/">
+  <link rel="alternate" href="https://oru.studio/es/" hreflang="es">
+  <link rel="alternate" href="https://oru.studio/en/" hreflang="en">
+  <link rel="alternate" href="https://oru.studio/" hreflang="x-default">
+
+  <!-- Meta SEO -->
+  <meta name="description"
+    content="Oru Studio: estudio indie de juegos móviles. Descubre nuestros títulos y descárgalos en iOS y Android.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Oru Studio – Juegos móviles">
+  <meta property="og:description" content="Estudio indie. Crea y juega a nuestros títulos en iOS y Android.">
+  <meta property="og:image" content="https://oru.studio../assets/og-cover.jpg">
+  <meta property="og:url" content="https://oru.studio/es/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Oru Studio – Juegos móviles">
+  <meta name="twitter:description" content="Estudio indie. Crea y juega a nuestros títulos en iOS y Android.">
+  <meta name="twitter:image" content="https://oru.studio../assets/og-cover.jpg">
+
+  <!-- Schema.org (Organization) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Oru Studio",
+    "url":"https://oru.studio/",
+    "logo":"https://oru.studio../assets/images/logo.png",
+    "sameAs":[ "PLACEHOLDER_IG","PLACEHOLDER_TW","PLACEHOLDER_LI","PLACEHOLDER_YT","PLACEHOLDER_FB" ]
+  }
+  </script>
+
+  <!-- PWA / Icons -->
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" sizes="32x32" href="../assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+
+  <!-- Perf -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    .sr-only:not(:focus):not(:active) {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 9999px;
+      background: #cbd5e1;
+      cursor: pointer
+    }
+
+    .dot.active {
+      background: #2563eb
+    }
+
+    .slide-fade {
+      transition: opacity .4s ease;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+  <a href="#slider" class="sr-only">Saltar al contenido</a>
+
+  <!-- Header (estudio) -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="/es/"><img src="../assets/images/LogoOruStudio_Wide.svg" alt="Logo Oru Studio" class="h-10" loading="eager"></a>
+      <nav class="space-x-6">
+        <a href="#portfolio" class="text-gray-600 hover:text-blue-600">Portfolio</a>
+        <a href="#about" class="text-gray-600 hover:text-blue-600">El estudio</a>
+        <a href="#contact" class="text-gray-600 hover:text-blue-600">Contacto</a>
+        <a href="#privacy" class="text-gray-600 hover:text-blue-600">Privacidad</a>
+      </nav>
+      <div class="space-x-2">
+        <a href="/es/" class="px-2 py-1 border rounded bg-gray-100">ES</a>
+        <a href="/en/" class="px-2 py-1 border rounded">EN</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Slider (controla features) -->
+  <section id="slider" class="bg-blue-600 text-white">
+    <div class="container mx-auto px-4 py-12 md:py-16">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 id="slide-title" class="text-4xl font-bold mb-4 slide-fade">PLACEHOLDER_GAME_NAME</h1>
+          <p id="slide-sub" class="mb-6 text-lg slide-fade">Cuida, juega y decora. ¡Descárgalo hoy!</p>
+          <div id="slide-badges" class="flex gap-4 items-center flex-wrap slide-fade">
+            <!-- badges dinámicos -->
+          </div>
+        </div>
+        <div class="text-center">
+          <img id="slide-image" src="../assets/hero/HeroPawpal.webp" alt="Captura del juego"
+            class="w-full max-w-xl mx-auto rounded-lg shadow-lg slide-fade" loading="eager">
+        </div>
+      </div>
+
+      <!-- Controles slider -->
+      <div class="mt-8 flex items-center justify-between">
+        <button id="prevBtn" class="bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold"
+          aria-label="Anterior">‹</button>
+        <div id="dots" class="flex gap-2"></div>
+        <button id="nextBtn" class="bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold"
+          aria-label="Siguiente">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio / Features (rellenado por el slide activo) -->
+  <section id="portfolio" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Características del juego destacado</h2>
+      <div id="features-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <!-- (Opcional) Screenshots controlados por slide -->
+  <section id="screenshots" class="bg-gray-200 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Capturas</h2>
+      <div id="screenshots-grid" class="grid grid-cols-1 md:grid-cols-3 gap-4"></div>
+    </div>
+  </section>
+
+  <!-- El estudio -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Sobre Oru Studio</h2>
+      <p class="text-gray-700 max-w-2xl mx-auto">Estudio indie centrado en simuladores móviles adorables. Creamos
+        experiencias accesibles y muy pulidas.</p>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact" class="py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold mb-4">Contacto</h2>
+      <p class="mb-6">¿Prensa, colaboraciones o soporte? Escríbenos: <a class="text-blue-600 hover:underline"
+          href="support@oru.studio">support@oru.studio</a></p>
+    </div>
+  </section>
+
+  <!-- Privacidad (igual que antes, resumida) -->
+  <section id="privacy" class="py-16 bg-white border-t">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-3xl font-bold mb-4">Política de privacidad</h2>
+      <p class="text-sm text-gray-500 mb-6">Última actualización: 2025-11-06</p>
+      <p class="mb-4">Esta política explica cómo <strong>Oru Studio</strong> trata los datos en
+        <strong>Pawpal</strong>.</p>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>Datos de uso (analítica).</li>
+        <li>ID de publicidad para anuncios (AdMob).</li>
+        <li>Diagnóstico (crashes, rendimiento).</li>
+      </ul>
+      <p class="mt-4">Derechos y contacto: <a class="text-blue-600 hover:underline"
+          href="mailto:support@oru.studio">support@oru.studio</a>.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-400 py-8">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="space-x-4 mb-4 md:mb-0">
+          <a href="#privacy" class="hover:text-white">Privacidad</a>
+          <a href="#contact" class="hover:text-white">Contacto</a>
+          <a href="/en/" class="hover:text-white">EN</a>
+        </div>
+        <div class="space-x-4 text-xl">
+          <a href="PLACEHOLDER_IG" aria-label="Instagram" class="hover:text-pink-500"><i
+              class="fab fa-instagram"></i></a>
+          <a href="PLACEHOLDER_TW" aria-label="X (Twitter)" class="hover:text-blue-400"><i
+              class="fab fa-twitter"></i></a>
+          <a href="PLACEHOLDER_LI" aria-label="LinkedIn" class="hover:text-blue-700"><i class="fab fa-linkedin"></i></a>
+          <a href="PLACEHOLDER_YT" aria-label="YouTube" class="hover:text-red-600"><i class="fab fa-youtube"></i></a>
+          <a href="PLACEHOLDER_FB" aria-label="Facebook" class="hover:text-blue-800"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+      <p class="mt-4 text-center text-sm">© 2025 Oru Studio. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JS slider + binding de features/screenshots -->
+  <script>
+    // Datos de slides (añade más objetos para nuevos juegos)
+    const slides = [
+      {
+        title: "PawPal",
+        subtitle: "Cuida, juega y decora. ¡Descárgalo hoy!",
+        image: '../assets/hero/HeroPawpal.webp',
+        badges: [
+          { href: "https://apps.apple.com/app/idPLACEHOLDER_APPLE_ID", img: "../assets/badges/appstore-es.svg", alt: "Descargar en App Store" },
+          { href: "https://play.google.com/store/apps/details?id=PLACEHOLDER_PACKAGE", img: "../assets/Badges/GetItOnGooglePlay_Badge_Web_color_Spanish.svg", alt: "Disponible en Google Play" }
+        ],
+        features: [
+          { img: '../assets/images/feature1.webp', title: "Cuidar", desc: "¡Cuida a tu mascota!" },
+          { img: '../assets/images/feature2.webp', title: "Jugar", desc: "¡Juega con él!" },
+          { img: '../assets/images/feature3.webp', title: "Decorar", desc: "¡Decora tu casa!" }
+        ],
+        screenshots: [
+          "../assets/images/screenshot1.webp",
+          "../assets/images/screenshot2.webp",
+          "../assets/images/screenshot3.webp"
+        ]
+      }
+    ];
+
+    // Estado
+    let current = 0;
+
+    // Refs
+    const titleEl = document.getElementById('slide-title');
+    const subEl = document.getElementById('slide-sub');
+    const imgEl = document.getElementById('slide-image');
+    const badgesEl = document.getElementById('slide-badges');
+    const dotsEl = document.getElementById('dots');
+    const featuresGrid = document.getElementById('features-grid');
+    const shotsGrid = document.getElementById('screenshots-grid');
+
+    function renderDots() {
+      dotsEl.innerHTML = '';
+      slides.forEach((_, i) => {
+        const d = document.createElement('button');
+        d.className = 'dot' + (i === current ? ' active' : '');
+        d.setAttribute('aria-label', 'Ir a slide ' + (i + 1));
+        d.addEventListener('click', () => go(i));
+        dotsEl.appendChild(d);
+      });
+    }
+
+    function fadeSwap(el, cb) {
+      el.style.opacity = 0;
+      setTimeout(() => { cb(); el.style.opacity = 1; }, 180);
+    }
+
+    function renderSlide() {
+      const s = slides[current];
+      fadeSwap(titleEl, () => titleEl.textContent = s.title);
+      fadeSwap(subEl, () => subEl.textContent = s.subtitle);
+      fadeSwap(imgEl, () => { imgEl.src = s.image; imgEl.alt = "Imagen de " + s.title; });
+
+      // Badges
+      badgesEl.innerHTML = '';
+      s.badges.forEach(b => {
+        const a = document.createElement('a');
+        a.href = b.href; a.ariaLabel = b.alt; a.innerHTML = `<img src="${b.img}" alt="${b.alt}" class="h-12" loading="lazy">`;
+        badgesEl.appendChild(a);
+      });
+
+      // Features
+      featuresGrid.innerHTML = '';
+      s.features.forEach(f => {
+        const card = document.createElement('div');
+        card.className = 'text-center';
+        card.innerHTML = `
+          <img src="${f.img}" alt="${f.title}" loading="lazy" class="mx-auto mb-4 w-32 h-32 object-contain">
+          <h3 class="text-xl font-semibold mb-2">${f.title}</h3>
+          <p>${f.desc}</p>`;
+        featuresGrid.appendChild(card);
+      });
+
+      // Screenshots
+      shotsGrid.innerHTML = '';
+      s.screenshots.forEach(src => {
+        const img = document.createElement('img');
+        img.src = src; img.alt = src.split('/').pop(); img.loading = 'lazy';
+        img.className = 'rounded-lg shadow-md';
+        shotsGrid.appendChild(img);
+      });
+
+      renderDots();
+    }
+
+    function go(n) {
+      current = (n + slides.length) % slides.length;
+      renderSlide();
+    }
+
+    document.getElementById('prevBtn').addEventListener('click', () => go(current - 1));
+    document.getElementById('nextBtn').addEventListener('click', () => go(current + 1));
+
+    // Init
+    renderSlide();
+  </script>
+</body>
+
+
+</html>
