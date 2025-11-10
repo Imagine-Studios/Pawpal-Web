@@ -5,29 +5,29 @@
 
   <!-- Home ES -->
   <url>
-    <loc>oru.studiooru.studio/es/</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <loc>https://oru.studio/es/</loc>
+    <lastmod>2025-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="/es/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oru.studio/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oru.studio/"/>
   </url>
 
   <!-- Home EN -->
   <url>
-    <loc>oru.studiooru.studio/en/</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <loc>https://oru.studio/en/</loc>
+    <lastmod>2025-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oru.studio/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oru.studio/"/>
   </url>
 
   <!-- Política del juego ES -->
   <url>
-    <loc>oru.studiooru.studio/es/politica-privacidad-JUEGO.html</loc>
+    <loc>oru.studio/es/politica-privacidad-JUEGO.html</loc>
     <lastmod>YYYY-MM-DD</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
@@ -38,7 +38,7 @@
 
   <!-- Game privacy EN -->
   <url>
-    <loc>oru.studiooru.studio/en/GAME-privacy-policy.html</loc>
+    <loc>oru.studio/en/GAME-privacy-policy.html</loc>
     <lastmod>YYYY-MM-DD</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
