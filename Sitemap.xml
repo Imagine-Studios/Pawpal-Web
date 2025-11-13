@@ -5,45 +5,45 @@
 
   <!-- Home ES -->
   <url>
-    <loc>https://oru.studio/es/</loc>
+    <loc>https://oru.studio/es/index.html</loc>
     <lastmod>2025-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oru.studio/es/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oru.studio/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://oru.studio/"/>
   </url>
 
   <!-- Home EN -->
   <url>
-    <loc>https://oru.studio/en/</loc>
+    <loc>https://oru.studio/index.html</loc>
     <lastmod>2025-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oru.studio/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oru.studio/es/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://oru.studio/"/>
   </url>
 
   <!-- Política del juego ES -->
   <url>
-    <loc>oru.studio/es/politica-privacidad-JUEGO.html</loc>
+    <loc>oru.studio/es/privacy-policy.html</loc>
     <lastmod>YYYY-MM-DD</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="/es/politica-privacidad-JUEGO.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="/en/GAME-privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="/es/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="/en/privacy-policy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="/"/>
   </url>
 
   <!-- Game privacy EN -->
   <url>
-    <loc>oru.studio/en/GAME-privacy-policy.html</loc>
+    <loc>oru.studio/en/privacy-policy.html</loc>
     <lastmod>YYYY-MM-DD</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="/en/GAME-privacy-policy.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="/es/politica-privacidad-JUEGO.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="/es/privacy-policy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="/"/>
   </url>
 
