@@ -1,0 +1,44 @@
+.slider {
+    background-image: url('/assets/hero/hero-pawpal.webp');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF; /* White text */
+    padding: 3rem 1rem;
+    text-align: center;
+    width: auto;
+    height: 50rem;
+}
+
+.badges-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    position: relative;
+    width: 20rem;
+    height: 7rem;
+    top: 80%;
+    left: 20%;
+}
+
+.portfolio-image {
+    position: relative;
+    height: 20rem;
+    width: 20rem;
+    object-fit: contain;
+    border-radius: 3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.portfolio-text {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    color: #ffffff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}

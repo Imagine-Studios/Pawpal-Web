@@ -1,72 +1,52 @@
 function createSlider() {
+
     const sliderElement = document.createElement("section");
     sliderElement.id = "slider";
-    sliderElement.className = "bg-blue-600 text-white";
+    sliderElement.className = "slider";
     
-    const container = document.createElement("div");
-    container.className = "container mx-auto px-4 py-12 md:py-16";
 
-    const grid = document.createElement("div");
-    grid.className = "grid md:grid-cols-2 gap-8 items-center";
-
-    const leftDiv = document.createElement("div");
-    
-    const title = document.createElement("h1");
-    title.id = "slide-title";
-    title.className = "text-4xl font-bold mb-4 slide-fade";
-    title.textContent = "PawPal";
-    leftDiv.appendChild(title);
-    
-    const subtitle = document.createElement("p");
-    subtitle.id = "slide-sub";
-    subtitle.className = "mb-6 text-lg slide-fade";
-    subtitle.textContent = "Care, play & decorate. Download today!";
-    leftDiv.appendChild(subtitle);
-    
     const badgesDiv = document.createElement("div");
     badgesDiv.id = "slide-badges";
-    badgesDiv.className = "flex gap-4 items-center flex-wrap slide-fade";
-    leftDiv.appendChild(badgesDiv);
+    badgesDiv.className = "badges-container";
+    sliderElement.appendChild(badgesDiv);
     
-    grid.appendChild(leftDiv);
-    
-    const rightDiv = document.createElement("div");
-    rightDiv.className = "text-center";
-    
-    const heroImg = document.createElement("img");
-    heroImg.id = "slide-image";
-    heroImg.src = "/assets/hero/hero-pawpal.webp";
-    heroImg.alt = "Game hero image";
-    heroImg.className = "w-full max-w-xl mx-auto rounded-lg shadow-lg slide-fade";
-    heroImg.loading = "eager";
-    rightDiv.appendChild(heroImg);
-    
-    grid.appendChild(rightDiv);
-    container.appendChild(grid);
-    
-    const navDiv = document.createElement("div");
-    navDiv.className = "mt-8 flex items-center justify-between";
-    
-    const prevBtn = document.createElement("button");
-    prevBtn.id = "prevBtn";
-    prevBtn.className = "bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold";
-    prevBtn.setAttribute("aria-label", "Previous");
-    prevBtn.textContent = "‹";
-    navDiv.appendChild(prevBtn);
-    
-    const dotsDiv = document.createElement("div");
-    dotsDiv.id = "dots";
-    dotsDiv.className = "flex gap-2";
-    navDiv.appendChild(dotsDiv);
-    
-    const nextBtn = document.createElement("button");
-    nextBtn.id = "nextBtn";
-    nextBtn.className = "bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold";
-    nextBtn.setAttribute("aria-label", "Next");
-    nextBtn.textContent = "›";
-    navDiv.appendChild(nextBtn);
-    
-    container.appendChild(navDiv);
-    sliderElement.appendChild(container);
+    const playStoreImg = document.createElement("img");
+    playStoreImg.className = "h-12 cursor-pointer transition-transform duration-200 width-100 height-100";
+    playStoreImg.src = "/assets/badges/google-play-badge.png";
+    playStoreImg.alt = "Get it on Google Play";
+    playStoreImg.onclick = () => {
+        window.open("https://play.google.com/store/apps/details?id=PLACEHOLDER_PACKAGE", "_blank");
+    };
+    playStoreImg.onmouseenter = () => {
+        playStoreImg.classList.add("transform", "scale-105");
+    };
+    playStoreImg.onmouseleave = () => {
+        playStoreImg.classList.remove("transform", "scale-105");
+    };
+
+    const playStoreButton = document.createElement("div")
+    playStoreButton.classList.add("badge-button");
+    playStoreButton.appendChild(playStoreImg)
+    badgesDiv.appendChild(playStoreButton);
+
+    const appStoreImg = document.createElement("img");
+    appStoreImg.className = "h-12 cursor-pointer transition-transform duration-200 width-100 height-100";
+    appStoreImg.src = "/assets/badges/app-store-badge.png";
+    appStoreImg.alt = "Download on the App Store";
+    appStoreImg.onclick = () => {
+        window.open("https://apps.apple.com/app/idPLACEHOLDER_APPLE_ID", "_blank");
+    };
+    appStoreImg.onmouseenter = () => {
+        appStoreImg.classList.add("transform", "scale-105");
+    };
+    appStoreImg.onmouseleave = () => {
+        appStoreImg.classList.remove("transform", "scale-105");
+    };
+
+    const appStoreButton = document.createElement("div")
+    appStoreButton.classList.add("badge-button");
+    appStoreButton.appendChild(appStoreImg)
+    badgesDiv.appendChild(appStoreButton);
+
     return sliderElement;
 }

@@ -1,13 +1,26 @@
-  <section id="privacy" class="py-16 bg-white border-t">
-    <div class="container mx-auto px-4 max-w-4xl">
-      <h2 class="text-3xl font-bold mb-4">Privacy Policy</h2>
-      <p class="text-sm text-gray-500 mb-6">Last updated: 2025-11-06</p>
-      <ul class="list-disc pl-6 space-y-1">
-        <li>Usage data (analytics).</li>
-        <li>Advertising ID for ads (AdMob).</li>
-        <li>Diagnostics (crashes, performance).</li>
-      </ul>
-      <p class="mt-4">Rights & contact: <a class="text-blue-600 hover:underline"
-          href="mailto:support@oru.studio">support@oru.studio</a>.</p>
-    </div>
-  </section>
+function createPrivacySection() {
+  const currentLanguage = sessionStorage.getItem("language") || "en";
+
+  const privacySectionElement = document.createElement('section');
+  privacySectionElement.id = 'privacy';
+  privacySectionElement.className = 'py-16 bg-white border-t';
+
+  const containerDiv = document.createElement('div');
+  containerDiv.className = 'container mx-auto px-4 max-w-4xl text-center';
+  privacySectionElement.appendChild(containerDiv);
+
+  const heading = document.createElement('h2');
+  heading.className = 'text-3xl font-bold mb-4';
+  heading.textContent = currentLanguage === 'es' ? 'Politica de privacidad' : 'Privacy Policy';
+  containerDiv.appendChild(heading);
+
+  const linkParagraph = document.createElement('a');
+  linkParagraph.className = 'text-sm text-gray-500 mb-6';
+  const spanishText = 'Lee nuestra Política de Privacidad completa aquí.';
+  const englishText = 'Read our full Privacy Policy here.';
+  linkParagraph.textContent = currentLanguage === 'es' ? spanishText : englishText;
+  linkParagraph.href = currentLanguage === 'es' ? '/es/privacy-policy.html' : '/en/privacy-policy.html';
+  containerDiv.appendChild(linkParagraph);
+
+  return privacySectionElement;
+}

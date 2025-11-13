@@ -8,7 +8,7 @@ function createHeader() {
     container.className = "container mx-auto px-4 py-4 flex items-center justify-between";
     
     const logoLink = document.createElement("a");
-    logoLink.href = "/en/";
+    logoLink.href = currentLanguage === "es" ? "/es/index.html" : "/";
     
     const logoImg = document.createElement("img");
     logoImg.src = "/assets/images/oru-logo.png";
@@ -23,9 +23,9 @@ function createHeader() {
     nav.className = "space-x-6";
     
     const navItems = [
-        { href: "#portfolio", text: "Portfolio" },
-        { href: "#about", text: "About" },
-        { href: "#contact", text: "Contact" },
+        { href: currentLanguage === "es" ? "/es/index.html#portfolio" : "/index.html#portfolio", text: "Portfolio" },
+        { href: currentLanguage === "es" ? "/es/index.html#about" : "/index.html#about", text: "About" },
+        { href: currentLanguage === "es" ? "/es/index.html#contact" : "/index.html#contact", text: "Contact" },
         { href: `/${currentLanguage}/privacy-policy.html`, text: "Privacy" }
     ];
     

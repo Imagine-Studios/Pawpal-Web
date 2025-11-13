@@ -1,4 +1,4 @@
-sessionStorage.setItem("language", "en");
+sessionStorage.setItem("language", "es");
 document.body.insertBefore(createHeader(), document.body.firstChild);
 document.body.appendChild(createSlider());
 document.body.appendChild(createPortfolioSection());

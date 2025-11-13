@@ -63,6 +63,7 @@ const contents = {
     }
 }
 
+document.body.prepend(createHeader());
 const main = document.getElementById("privacy-policy");
 main.appendChild(createPrivacyContent(contents));
 document.body.appendChild(createFooter());
