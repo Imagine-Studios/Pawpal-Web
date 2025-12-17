@@ -14,6 +14,12 @@
               referrerpolicy="no-referrer-when-downgrade">
           </iframe>
       </div>
+    
+  const contact = document.querySelector("#contact");
+  if (contact) {
+    contact.insertAdjacentHTML("afterend", html);
+    return;
+  }
 
       <!-- Opcional: enlace directo por si el iframe falla -->
       <div class="mt-4">
