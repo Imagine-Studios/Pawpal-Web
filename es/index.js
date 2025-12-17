@@ -5,5 +5,6 @@ document.body.appendChild(createPortfolioSection());
 document.body.appendChild(createScreenshotSection());
 document.body.appendChild(createAboutSection());
 document.body.appendChild(createContactSection());
+document.body.appendChild(createTestersSection());
 document.body.appendChild(createPrivacySection());
 document.body.appendChild(createFooter());
