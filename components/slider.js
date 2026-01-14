@@ -3,12 +3,30 @@ function createSlider() {
     const sliderElement = document.createElement("section");
     sliderElement.id = "slider";
     sliderElement.className = "slider";
-    
 
+    // Imagen responsive
+    const picture = document.createElement("picture");
+
+    const sourceMobile = document.createElement("source");
+    sourceMobile.media = "(max-width: 768px)";
+    sourceMobile.srcset = "/assets/slider/hero-mobile.webp";
+
+    const img = document.createElement("img");
+    img.src = "/assets/slider/hero-desktop.webp";
+    img.alt = "Max - Virtual Pet";
+    img.className = "w-full h-full object-cover object-center";
+    img.loading = "eager";
+
+    picture.appendChild(sourceMobile);
+    picture.appendChild(img);
+    sliderElement.appendChild(picture);
+
+    // Badges
     const badgesDiv = document.createElement("div");
     badgesDiv.id = "slide-badges";
-    badgesDiv.className = "badges-container";
+    badgesDiv.className = "absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-4 z-10";
     sliderElement.appendChild(badgesDiv);
+    
     
     const playStoreImg = document.createElement("img");
     playStoreImg.className = "h-12 cursor-pointer transition-transform duration-200 width-100 height-100";
