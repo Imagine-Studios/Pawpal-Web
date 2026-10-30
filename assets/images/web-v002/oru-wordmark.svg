@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 250" role="img" aria-labelledby="title">
+  <title id="title">Oru Studio</title>
+  <g fill="none" stroke="#E5DECC" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="100" cy="88" rx="80" ry="62"/>
+    <path d="M216 150V26H282C339 26 340 85 282 85H248L319 150"/>
+    <path d="M371 26V92C371 170 502 170 502 92V26"/>
+  </g>
+  <path fill="#E4AA58" d="M526 0L530 17L547 21L530 25L526 42L522 25L505 21L522 17Z"/>
+  <g fill="none" stroke="#E5DECC" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M158 201C143 192 126 199 132 208C136 214 156 211 157 222C158 234 138 237 128 229"/>
+    <path d="M177 199H207M192 199V233"/>
+    <path d="M228 199V220C228 239 255 239 255 220V199"/>
+    <path d="M280 233V199H291C319 199 319 233 291 233Z"/>
+    <path d="M337 199V233"/>
+    <ellipse cx="377" cy="216" rx="17" ry="18"/>
+  </g>
+</svg>

@@ -1,0 +1,186 @@
+{
+  "en": {
+    "title": "Oru Studio — Small worlds, big stories",
+    "description": "Meet the worlds of Oru Studio: care for Max in PawPal and discover SeaCurrent, our underwater project in development.",
+    "skip": "Skip to content",
+    "nav": [
+      "Our games",
+      "In motion",
+      "The studio",
+      "Say hello"
+    ],
+    "eyebrow": "Independent game studio",
+    "headline": [
+      "Small worlds.",
+      "Big stories."
+    ],
+    "intro": "We create characterful worlds and companions worth getting to know. Discover PawPal, spend time with Max and take a first look at our next adventure: SeaCurrent.",
+    "explore": "Meet our games",
+    "heroNote": "Two worlds. One independent studio.",
+    "gamesLabel": "Our worlds",
+    "gamesTitle": "Every world has a story.",
+    "gamesIntro": "A home for Max. An ocean for Oxi. Two projects with their own personalities, created by the same studio.",
+    "development": "In development",
+    "pawpalTag": "Virtual pet · Daily care · Minigames",
+    "pawpalTitle": "A little care. A lot of Max.",
+    "pawpalDescription": "Meet Max, your new virtual puppy. Make time for cuddles, snacks and bubble baths, play minigames together and give his home your own touch.",
+    "pawpalCta": "Spend a day with Max",
+    "beta": "Interested in testing PawPal?",
+    "betaCta": "Open the tester form",
+    "external": "opens in a new tab",
+    "seaTag": "An underwater world in the making",
+    "seaTitle": "SeaCurrent",
+    "seaHeadline": "A big adventure for a little fish.",
+    "seaDescription": "Meet Oxi, a curious little pufferfish, and take a first look at a world of glowing caves. An early glimpse of our next adventure.",
+    "seaNote": "Early concept art · Visual direction may change.",
+    "galleryLabel": "Little moments with Max",
+    "galleryTitle": "This is life in PawPal.",
+    "galleryIntro": "Frames from the game. Cuddles, bubbles and a home to make your own.",
+    "gallery": [
+      {
+        "image": "care",
+        "title": "A little affection",
+        "alt": "Max enjoying cuddles in the living room"
+      },
+      {
+        "image": "bath",
+        "title": "A splash of fun",
+        "alt": "Max covered in bubbles in his bathtub"
+      },
+      {
+        "image": "decorate",
+        "title": "A home of your own",
+        "alt": "Furniture selection in PawPal’s living room"
+      }
+    ],
+    "reelsLabel": "A peek inside PawPal",
+    "reelsTitle": "Even better in motion.",
+    "reelsIntro": "A day together, a little challenge, a fresh look. Press play and meet Max.",
+    "reels": [
+      {
+        "id": "day",
+        "title": "A day with Max",
+        "text": "Cuddles, snack time and a well-earned nap."
+      },
+      {
+        "id": "minigames",
+        "title": "Time to play",
+        "text": "Dream runs and pigeon chases. Max keeps busy."
+      },
+      {
+        "id": "uitour",
+        "title": "A closer look",
+        "text": "Rewards, decoration and Max’s wardrobe."
+      }
+    ],
+    "videoFallback": "Download the video",
+    "studioLabel": "Hello, we’re Oru",
+    "studioTitle": "A small studio with worlds to share.",
+    "studioText": "We’re an independent game studio creating characterful worlds for mobile. From everyday moments with Max to the first ideas for SeaCurrent, we’re building games we’re excited to share with you.",
+    "studioLink": "Let’s talk",
+    "contactLabel": "Keep in touch",
+    "contactTitle": "Good things start with a hello.",
+    "contactText": "A question, a collaboration or just a message about Max or Oxi? We’d love to hear from you.",
+    "deletionTitle": "PawPal account and data deletion",
+    "deletionText": "To request deletion of your PawPal account and associated data, email support@oru.studio and include the game name (PawPal), platform (Android) and player ID, if available. We will delete cloud-saved progress and associated identifiers. Some data may be retained as required by legal obligations, such as purchase records.",
+    "privacy": "PawPal privacy policy",
+    "updated": "Last updated",
+    "back": "Back to the studio",
+    "rights": "All rights reserved.",
+    "heroAlt": "Oru’s little guardian sitting on an ancient world, with an amber heart glowing on its chest.",
+    "guardianAlt": "Oru’s guardian with its glowing heart.",
+    "seaAlt": "Oxi, SeaCurrent’s pufferfish, in the selected character concept."
+  },
+  "es": {
+    "title": "Oru Studio — Pequeños mundos, grandes historias",
+    "description": "Conoce los mundos de Oru Studio: cuida de Max en PawPal y descubre SeaCurrent, nuestro proyecto submarino en desarrollo.",
+    "skip": "Saltar al contenido",
+    "nav": [
+      "Nuestros juegos",
+      "En movimiento",
+      "El estudio",
+      "Contacto"
+    ],
+    "eyebrow": "Estudio independiente de videojuegos",
+    "headline": [
+      "Pequeños mundos.",
+      "Grandes historias."
+    ],
+    "intro": "Creamos mundos con personalidad y personajes que apetece conocer. Descubre PawPal, acompaña a Max y asómate a nuestra próxima aventura: SeaCurrent.",
+    "explore": "Conoce nuestros juegos",
+    "heroNote": "Dos mundos. Un estudio independiente.",
+    "gamesLabel": "Nuestros mundos",
+    "gamesTitle": "Cada mundo, su propia historia.",
+    "gamesIntro": "Un hogar para Max. Un océano para Oxi. Dos proyectos con personalidad propia, creados desde el mismo estudio.",
+    "development": "En desarrollo",
+    "pawpalTag": "Mascota virtual · Cuidados · Minijuegos",
+    "pawpalTitle": "Un poco de cariño. Mucho Max.",
+    "pawpalDescription": "Max es tu nuevo cachorro virtual. Dedícale un rato de mimos, comida y baños de espuma, compartid minijuegos y dale tu toque a su hogar.",
+    "pawpalCta": "Pasa un día con Max",
+    "beta": "¿Te gustaría probar PawPal?",
+    "betaCta": "Abrir el formulario de testers",
+    "external": "se abre en una pestaña nueva",
+    "seaTag": "Un mundo submarino en marcha",
+    "seaTitle": "SeaCurrent",
+    "seaHeadline": "Una gran aventura para un pequeño pez.",
+    "seaDescription": "Conoce a Oxi, un pequeño y curioso pez globo, y asómate a un mundo de cuevas luminosas. Un primer vistazo a nuestra próxima aventura.",
+    "seaNote": "Arte conceptual inicial · La dirección visual puede cambiar.",
+    "galleryLabel": "Pequeños momentos con Max",
+    "galleryTitle": "Así se vive en PawPal.",
+    "galleryIntro": "Fotogramas del juego. Mimos, burbujas y un hogar que hacer tuyo.",
+    "gallery": [
+      {
+        "image": "care",
+        "title": "Una dosis de mimos",
+        "alt": "Max disfrutando de los mimos en el salón"
+      },
+      {
+        "image": "bath",
+        "title": "Diversión con burbujas",
+        "alt": "Max cubierto de espuma en su bañera"
+      },
+      {
+        "image": "decorate",
+        "title": "Un hogar a tu manera",
+        "alt": "Selección de muebles en el salón de PawPal"
+      }
+    ],
+    "reelsLabel": "Un vistazo a PawPal",
+    "reelsTitle": "Mejor si lo ves en movimiento.",
+    "reelsIntro": "Un día juntos, un pequeño reto, una nueva imagen. Dale al play y conoce a Max.",
+    "reels": [
+      {
+        "id": "day",
+        "title": "Un día con Max",
+        "text": "Mimos, algo de comer y una siesta bien merecida."
+      },
+      {
+        "id": "minigames",
+        "title": "Hora de jugar",
+        "text": "Carreras de sueños y persecuciones de palomas."
+      },
+      {
+        "id": "uitour",
+        "title": "Un vistazo más de cerca",
+        "text": "Recompensas, decoración y el armario de Max."
+      }
+    ],
+    "videoFallback": "Descargar el vídeo",
+    "studioLabel": "Hola, somos Oru",
+    "studioTitle": "Un pequeño estudio con mundos que compartir.",
+    "studioText": "Somos un estudio independiente que crea mundos con personalidad para móvil. Desde los momentos cotidianos con Max hasta las primeras ideas de SeaCurrent, estamos construyendo juegos que nos hace ilusión compartir contigo.",
+    "studioLink": "Hablemos",
+    "contactLabel": "Seguimos en contacto",
+    "contactTitle": "Todo empieza con un hola.",
+    "contactText": "¿Una pregunta, una colaboración o un mensaje sobre Max u Oxi? Nos encantará leerte.",
+    "deletionTitle": "Eliminar tu cuenta y datos de PawPal",
+    "deletionText": "Para solicitar la eliminación de tu cuenta de PawPal y los datos asociados, escribe a support@oru.studio e indica el nombre del juego (PawPal), la plataforma (Android) y tu ID de jugador, si está disponible. Eliminaremos el progreso guardado en la nube y los identificadores asociados. Algunos datos podrán conservarse durante el tiempo requerido por obligaciones legales, como los registros de compras.",
+    "privacy": "Política de privacidad de PawPal",
+    "updated": "Última actualización",
+    "back": "Volver al estudio",
+    "rights": "Todos los derechos reservados.",
+    "heroAlt": "El pequeño guardián de Oru sentado sobre un mundo antiguo, con un corazón de luz ámbar.",
+    "guardianAlt": "El guardián de Oru con su corazón iluminado.",
+    "seaAlt": "Oxi, el pez globo de SeaCurrent, en el concepto elegido para el juego."
+  }
+}

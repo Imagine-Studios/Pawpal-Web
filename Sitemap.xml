@@ -6,45 +6,41 @@
   <!-- Home ES -->
   <url>
     <loc>https://oru.studio/es/index.html</loc>
-    <lastmod>2025-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://oru.studio/es/index.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://oru.studio/"/>
   </url>
 
   <!-- Home EN -->
   <url>
-    <loc>https://oru.studio/index.html</loc>
-    <lastmod>2025-11-06</lastmod>
+    <loc>https://oru.studio/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://oru.studio/es/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://oru.studio/"/>
   </url>
 
   <!-- Política del juego ES -->
   <url>
-    <loc>oru.studio/es/privacy-policy.html</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <loc>https://oru.studio/es/privacy-policy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="/es/privacy-policy.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="/en/privacy-policy.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oru.studio/es/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oru.studio/en/privacy-policy.html"/>
   </url>
 
   <!-- Game privacy EN -->
   <url>
-    <loc>oru.studio/en/privacy-policy.html</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <loc>https://oru.studio/en/privacy-policy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="/en/privacy-policy.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="/es/privacy-policy.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oru.studio/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oru.studio/es/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oru.studio/en/privacy-policy.html"/>
   </url>
 
 </urlset>

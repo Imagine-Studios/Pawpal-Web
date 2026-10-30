@@ -1,7 +1,3 @@
-robots.txt (raíz)
-# robots.txt — reemplaza oru.studio por tu dominio (sin / final)
 User-agent: *
 Allow: /
-
-# Señala el sitemap (URL absoluta y en HTTPS)
-Sitemap: https://studio/sitemap.xml
+Sitemap: https://oru.studio/Sitemap.xml
