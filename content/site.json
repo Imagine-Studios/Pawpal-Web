@@ -4,10 +4,9 @@
     "description": "Meet the worlds of Oru Studio: care for Max in PawPal and discover SeaCurrent, our underwater project in development.",
     "skip": "Skip to content",
     "nav": [
-      "Our games",
-      "In motion",
-      "The studio",
-      "Say hello"
+      "Games",
+      "Studio",
+      "Contact"
     ],
     "eyebrow": "Independent game studio",
     "headline": [
@@ -89,16 +88,37 @@
     "rights": "All rights reserved.",
     "heroAlt": "Oru’s little guardian sitting on an ancient world, with an amber heart glowing on its chest.",
     "guardianAlt": "Oru’s guardian with its glowing heart.",
-    "seaAlt": "Oxi, SeaCurrent’s pufferfish, in the selected character concept."
+    "seaAlt": "Oxi, SeaCurrent’s pufferfish, in the selected character concept.",
+    "tryPawpal": "Try PawPal",
+    "learnPawpal": "Meet PawPal",
+    "learnSea": "Discover SeaCurrent",
+    "screenshotsLink": "Screenshots",
+    "reelsLink": "Videos",
+    "backGames": "All games",
+    "testerNote": "Would you like to help us test the game? Tell us about your interest through the tester form.",
+    "seaWorldLink": "Explore its world",
+    "seaWorldTitle": "A first look at Oxi’s world.",
+    "seaWorldText": "Glowing caves, a sense of depth and a little protagonist with plenty of personality. These images explore SeaCurrent’s artistic direction as the game takes shape.",
+    "seaWorldAlt": "Concept art of Oxi in a glowing underwater cave.",
+    "seaContact": "Ask us about SeaCurrent",
+    "gamePages": {
+      "pawpal": {
+        "title": "PawPal — Care for Max, your virtual puppy | Oru Studio",
+        "description": "Meet Max in PawPal: daily care, minigames and a home to make your own. Watch gameplay, browse screenshots and express your interest in testing."
+      },
+      "seacurrent": {
+        "title": "SeaCurrent — Meet Oxi and discover its world | Oru Studio",
+        "description": "Discover Oxi, SeaCurrent’s pufferfish. A first look at the concept art of our underwater game in development."
+      }
+    }
   },
   "es": {
     "title": "Oru Studio — Pequeños mundos, grandes historias",
     "description": "Conoce los mundos de Oru Studio: cuida de Max en PawPal y descubre SeaCurrent, nuestro proyecto submarino en desarrollo.",
     "skip": "Saltar al contenido",
     "nav": [
-      "Nuestros juegos",
-      "En movimiento",
-      "El estudio",
+      "Juegos",
+      "Estudio",
       "Contacto"
     ],
     "eyebrow": "Estudio independiente de videojuegos",
@@ -181,6 +201,28 @@
     "rights": "Todos los derechos reservados.",
     "heroAlt": "El pequeño guardián de Oru sentado sobre un mundo antiguo, con un corazón de luz ámbar.",
     "guardianAlt": "El guardián de Oru con su corazón iluminado.",
-    "seaAlt": "Oxi, el pez globo de SeaCurrent, en el concepto elegido para el juego."
+    "seaAlt": "Oxi, el pez globo de SeaCurrent, en el concepto elegido para el juego.",
+    "tryPawpal": "Probar PawPal",
+    "learnPawpal": "Conocer PawPal",
+    "learnSea": "Descubrir SeaCurrent",
+    "screenshotsLink": "Capturas",
+    "reelsLink": "Vídeos",
+    "backGames": "Todos los juegos",
+    "testerNote": "¿Quieres ayudarnos a probar el juego? Cuéntanos tu interés en el formulario de testers.",
+    "seaWorldLink": "Explorar su mundo",
+    "seaWorldTitle": "Un primer vistazo al mundo de Oxi.",
+    "seaWorldText": "Cuevas luminosas, profundidad y un pequeño protagonista con mucha personalidad. Estas imágenes exploran la dirección artística de SeaCurrent, todavía en desarrollo.",
+    "seaWorldAlt": "Arte conceptual de Oxi en una cueva submarina iluminada.",
+    "seaContact": "Pregúntanos por SeaCurrent",
+    "gamePages": {
+      "pawpal": {
+        "title": "PawPal — Cuida de Max, tu mascota virtual | Oru Studio",
+        "description": "Conoce a Max en PawPal: cuidados, minijuegos y un hogar que hacer tuyo. Mira capturas y vídeos del juego y muestra tu interés como tester."
+      },
+      "seacurrent": {
+        "title": "SeaCurrent — Conoce a Oxi y su mundo | Oru Studio",
+        "description": "Descubre a Oxi, el pez globo de SeaCurrent. Un primer vistazo al arte conceptual de nuestro juego submarino en desarrollo."
+      }
+    }
   }
 }
