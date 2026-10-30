@@ -58,7 +58,10 @@ function document(lang, body, page = 'home') {
   <meta name="twitter:title" content="${escape(title)}">
   <meta name="twitter:description" content="${escape(description)}">
   <meta name="twitter:image" content="https://oru.studio${socialImage}">
-  <link rel="icon" href="/assets/images/web-v002/oru-avatar-64.png" type="image/png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" href="/favicon-96.png" type="image/png" sizes="96x96">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="/oruStudio-manifest.json">
   <link rel="preload" href="/assets/fonts/DMSans-Variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="/styles.css">
   <script type="application/ld+json">${schema}</script>

@@ -7,12 +7,12 @@
   "theme_color": "#141722",
   "icons": [
     {
-      "src": "/assets/images/web-v002/oru-avatar-192.png",
+      "src": "/assets/icons/oru-guardian-192-v001.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/web-v002/oru-avatar-512.png",
+      "src": "/assets/icons/oru-guardian-512-v001.png",
       "sizes": "512x512",
       "type": "image/png"
     }
