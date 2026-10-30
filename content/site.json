@@ -110,6 +110,37 @@
         "title": "SeaCurrent — Meet Oxi and discover its world | Oru Studio",
         "description": "Discover Oxi, SeaCurrent’s pufferfish. A first look at the concept art of our underwater game in development."
       }
+    },
+    "play": {
+      "title": "Play — Oru Studio",
+      "description": "Play Balloon Hunters in your browser and discover upcoming minigames from Oru Studio.",
+      "heading": "Small breaks. Big challenges.",
+      "intro": "Jump into Balloon Hunters, our browser arcade game. Two more minigames are on the way.",
+      "available": "Available now",
+      "soon": "Coming soon",
+      "soonText": "Another minigame is on the way.",
+      "action": "Play Balloon Hunters",
+      "all": "Explore Play",
+      "back": "Back to Play",
+      "summary": "Split bouncing creatures, bend their paths with gravity, and survive five waves in the floating ruins.",
+      "gameTitle": "Balloon Hunters — Play | Oru Studio",
+      "launch": "Play",
+      "stop": "Close game",
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit fullscreen",
+      "fullError": "Fullscreen is unavailable. You can open the game separately.",
+      "loading": "Loading game…",
+      "loaded": "Game page opened. Use the controls inside the game to begin.",
+      "failed": "Loading is taking longer than expected. Try closing and reopening the game, or open it separately.",
+      "stopped": "Game closed.",
+      "direct": "Open game separately",
+      "note": "Play in landscape mode on mobile. Scores and preferences are saved in this browser. Use Escape to pause; in fullscreen, Escape returns to this page.",
+      "controls": "How to play",
+      "desktop": "Keyboard and mouse: move with A/D or Left/Right Arrow. Aim with the mouse or Up/Down Arrow. Stop moving and hold the left mouse button to shoot. Hold Space for gravity. Escape pauses.",
+      "mobile": "Touchscreen: hold the left/right buttons to move. Stop, then hold and drag on AIM / SHOOT to aim and fire. Hold GRAVITY for the gravity field. Tap Pause to pause.",
+      "storage": "Local scores stay on this device and are not shared with CrazyGames. An unfinished run is not saved.",
+      "nojs": "Enable JavaScript to play here, or open the game separately.",
+      "gameAlt": "Balloon Hunters: energy launcher and bouncing creatures among floating ruins."
     }
   },
   "es": {
@@ -223,6 +254,37 @@
         "title": "SeaCurrent — Conoce a Oxi y su mundo | Oru Studio",
         "description": "Descubre a Oxi, el pez globo de SeaCurrent. Un primer vistazo al arte conceptual de nuestro juego submarino en desarrollo."
       }
+    },
+    "play": {
+      "title": "Play — Minijuegos de Oru Studio",
+      "description": "Juega a Balloon Hunters en tu navegador y descubre los próximos minijuegos de Oru Studio.",
+      "heading": "Pequeñas pausas. Grandes retos.",
+      "intro": "Prueba Balloon Hunters, nuestro arcade para navegador. Otros dos minijuegos están en camino.",
+      "available": "Disponible",
+      "soon": "Coming soon",
+      "soonText": "Otro minijuego está en camino.",
+      "action": "Jugar a Balloon Hunters",
+      "all": "Explorar Play",
+      "back": "Volver a Play",
+      "summary": "Divide criaturas que rebotan, altera sus trayectorias con la gravedad y supera cinco oleadas entre ruinas flotantes.",
+      "gameTitle": "Balloon Hunters — Jugar | Oru Studio",
+      "launch": "Jugar",
+      "stop": "Cerrar juego",
+      "fullscreen": "Pantalla completa",
+      "exitFullscreen": "Salir de pantalla completa",
+      "fullError": "La pantalla completa no está disponible. Puedes abrir el juego por separado.",
+      "loading": "Cargando juego…",
+      "loaded": "Página del juego abierta. Utiliza sus controles para empezar.",
+      "failed": "La carga está tardando más de lo esperado. Prueba a cerrar y volver a abrir el juego, o ábrelo por separado.",
+      "stopped": "Juego cerrado.",
+      "direct": "Abrir el juego por separado",
+      "note": "En móvil, juega en horizontal. Las puntuaciones y preferencias se guardan en este navegador. Escape pausa el juego; en pantalla completa, Escape vuelve a esta página.",
+      "controls": "Cómo jugar",
+      "desktop": "Teclado y ratón: muévete con A/D o las flechas izquierda/derecha. Apunta con el ratón o las flechas arriba/abajo. Detente y mantén el botón izquierdo del ratón para disparar. Mantén Espacio para activar la gravedad. Escape pausa.",
+      "mobile": "Pantalla táctil: mantén los botones izquierda/derecha para moverte. Detente y mantén pulsado y arrastra en AIM / SHOOT para apuntar y disparar. Mantén GRAVITY para activar la gravedad. Pulsa Pause para pausar.",
+      "storage": "Las puntuaciones se quedan en este dispositivo y no se comparten con CrazyGames. Las partidas en curso no se guardan.",
+      "nojs": "Activa JavaScript para jugar aquí o abre el juego por separado.",
+      "gameAlt": "Balloon Hunters: lanzador de energía y criaturas que rebotan entre ruinas flotantes."
     }
   }
 }

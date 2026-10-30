@@ -1,6 +1,6 @@
 # Oru Studio — web
 
-Web estática del estudio: PawPal y SeaCurrent. HTML/CSS sin framework, paquetes npm ni JavaScript en el navegador. Se conservan el dominio y las URLs existentes.
+Web estática del estudio: PawPal, SeaCurrent y Play. HTML/CSS sin framework ni paquetes npm; un pequeño script de navegador carga el minijuego al pulsar Jugar. Se conservan el dominio y las URLs existentes.
 
 ## Editar y comprobar
 
@@ -16,7 +16,7 @@ Abre `http://127.0.0.1:8080/es/index.html`. Detén el servidor con Ctrl+C.
 
 - `content/site.json`: textos EN/ES de la portada.
 - `content/privacy-en.json` y `privacy-es.json`: contenido legal trasladado de las páginas anteriores. No actualizar la fecha sin una revisión real de la política.
-- `scripts/build.mjs`: plantilla común de cabecera, portada, páginas de juego, pie y privacidad. Genera ocho páginas HTML y el sitemap; funciona desde cualquier directorio.
+- `scripts/build.mjs`: plantilla común de cabecera, portada, páginas de juego, pie y privacidad. Genera doce páginas HTML y el sitemap; funciona desde cualquier directorio.
 - `scripts/pages.mjs`: rutas compartidas por el generador y el validador. Cada juego tiene páginas ES/EN y el selector de idioma conserva el juego actual.
 - `styles.css`: branding de Oru Studio según la guía v0.1: carbón, índigo, marfil y ámbar; Manrope y DM Sans locales. Los juegos conservan sus colores dentro de sus imágenes.
 - `scripts/check.mjs`: comprueba enlaces internos, anchors, assets, mayúsculas de rutas, fuentes y manifest.
@@ -39,3 +39,9 @@ GitHub Pages publica desde la raíz de `main` en `Imagine-Studios/Pawpal-Web`, c
 
 La revisión actual está en `docs/review-v003.md`; las pasadas anteriores se conservan en `docs/review-v001.md` y `docs/review-v002.md`. La dirección visual de la landing fue aceptada el 30/10/2026 (`docs/landing-approval-v002.md`). Pendientes para futuras iteraciones: aprobar el logo como maestro para otros soportes, confirmar el formulario de testers y las URLs definitivas de tiendas/redes cuando existan. La autorización de publicación incluye el contenido de la landing mostrado al usuario.
 
+
+## Play · ampliación local
+
+Rutas: /play/, /play/balloon-hunters/ y sus equivalentes /es/play/ y /es/play/balloon-hunters/. Balloon Hunters está integrado con el build real; los otros dos juegos se muestran como Coming soon. Textos en content/site.json, plantillas en scripts/build.mjs y rutas en scripts/pages.mjs. La home y la navegación enlazan Play.
+
+Cambios sin publicar, pendientes de revisión. Ver docs/review-play-v001.md para procedencia, pruebas y límites. No enviar a main hasta revisar: GitHub Pages publica automáticamente. Para previsualizar en otro puerto en PowerShell: $env:PORT=8097; node scripts/serve.mjs.

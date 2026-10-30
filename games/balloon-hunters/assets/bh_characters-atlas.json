@@ -1,0 +1,432 @@
+{
+  "frames": {
+    "player_idle": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 160
+      }
+    },
+    "player_run": {
+      "frame": {
+        "x": 132,
+        "y": 2,
+        "w": 128,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 160
+      }
+    },
+    "player_aim_up": {
+      "frame": {
+        "x": 262,
+        "y": 2,
+        "w": 128,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 160
+      }
+    },
+    "player_aim_diag_left": {
+      "frame": {
+        "x": 392,
+        "y": 2,
+        "w": 128,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 160
+      }
+    },
+    "player_aim_diag_right": {
+      "frame": {
+        "x": 522,
+        "y": 2,
+        "w": 128,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 160
+      }
+    },
+    "player_shoot": {
+      "frame": {
+        "x": 652,
+        "y": 2,
+        "w": 128,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 160
+      }
+    },
+    "player_hit": {
+      "frame": {
+        "x": 782,
+        "y": 2,
+        "w": 128,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 160
+      }
+    },
+    "player_win": {
+      "frame": {
+        "x": 912,
+        "y": 2,
+        "w": 128,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 160
+      }
+    },
+    "player_lose": {
+      "frame": {
+        "x": 1042,
+        "y": 2,
+        "w": 128,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 160
+      }
+    },
+    "projectile_main": {
+      "frame": {
+        "x": 1172,
+        "y": 2,
+        "w": 32,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 96
+      }
+    },
+    "blob_large": {
+      "frame": {
+        "x": 1206,
+        "y": 2,
+        "w": 256,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      }
+    },
+    "blob_medium": {
+      "frame": {
+        "x": 1464,
+        "y": 2,
+        "w": 160,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 160,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 160
+      }
+    },
+    "blob_small": {
+      "frame": {
+        "x": 1626,
+        "y": 2,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "gravity_device_idle": {
+      "frame": {
+        "x": 1724,
+        "y": 2,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      }
+    },
+    "gravity_device_ready": {
+      "frame": {
+        "x": 2110,
+        "y": 2,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      }
+    },
+    "gravity_device_active": {
+      "frame": {
+        "x": 2496,
+        "y": 2,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      }
+    },
+    "gravity_device_cooldown": {
+      "frame": {
+        "x": 2882,
+        "y": 2,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      }
+    },
+    "dust_land": {
+      "frame": {
+        "x": 3268,
+        "y": 2,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    "blob_large_squash": {
+      "frame": {
+        "x": 3398,
+        "y": 2,
+        "w": 256,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      }
+    },
+    "blob_medium_squash": {
+      "frame": {
+        "x": 3656,
+        "y": 2,
+        "w": 160,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 160,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 160
+      }
+    },
+    "blob_small_squash": {
+      "frame": {
+        "x": 3818,
+        "y": 2,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    }
+  },
+  "meta": {
+    "image": "bh_characters-atlas.png",
+    "size": {
+      "w": 3916,
+      "h": 388
+    },
+    "scale": "1"
+  }
+}

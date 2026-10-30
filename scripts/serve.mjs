@@ -5,8 +5,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
-const port = 8080;
-const types = {'.html':'text/html; charset=utf-8', '.css':'text/css', '.js':'text/javascript', '.svg':'image/svg+xml', '.ico':'image/x-icon', '.webp':'image/webp', '.png':'image/png', '.jpg':'image/jpeg', '.ttf':'font/ttf', '.mp4':'video/mp4', '.json':'application/json', '.xml':'application/xml', '.txt':'text/plain'};
+const port = Number(process.env.PORT || 8080);
+const types = {'.html':'text/html; charset=utf-8', '.css':'text/css', '.js':'text/javascript', '.svg':'image/svg+xml', '.ico':'image/x-icon', '.webp':'image/webp', '.png':'image/png', '.jpg':'image/jpeg', '.ttf':'font/ttf', '.mp4':'video/mp4', '.ogg':'audio/ogg', '.wav':'audio/wav', '.json':'application/json', '.xml':'application/xml', '.txt':'text/plain'};
 
 // Local preview only. Range requests allow native video controls to seek.
 http.createServer(async (request, response) => {

@@ -1,0 +1,1735 @@
+[
+  {
+    "id": "player_idle",
+    "url": "/games/balloon-hunters/assets/player_idle.png",
+    "sourceHash": "ddb18f6883f812f25ab331dd978b0fac5dddd4c08706868cb72c6ea9441212c3",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "static-base-pending-review"
+    },
+    "frameBounds": [
+      [
+        22,
+        17,
+        116,
+        146
+      ]
+    ]
+  },
+  {
+    "id": "player_run",
+    "url": "/games/balloon-hunters/assets/player_run.png",
+    "sourceHash": "45a280b03884b99a98038750f9d07aa125bd4f43ea33c878edeae449fad369b3",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "single-key-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        14,
+        13,
+        126,
+        150
+      ]
+    ]
+  },
+  {
+    "id": "player_aim_up",
+    "url": "/games/balloon-hunters/assets/player_aim_up.png",
+    "sourceHash": "7cd62c14c8afb0a022d99fdf6aa04b50cd27c9413af70f0b49e19ff8d198919e",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "single-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        25,
+        12,
+        109,
+        146
+      ]
+    ]
+  },
+  {
+    "id": "player_aim_diag_left",
+    "url": "/games/balloon-hunters/assets/player_aim_diag_left.png",
+    "sourceHash": "cf1d86b4d97541ccf61934e8a74cd1137831b2d7d82e05ea4da9b526b30fbb09",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "single-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        7,
+        20,
+        117,
+        147
+      ]
+    ]
+  },
+  {
+    "id": "player_aim_diag_right",
+    "url": "/games/balloon-hunters/assets/player_aim_diag_right.png",
+    "sourceHash": "92a179655c500068525b4b4d8e63463343abe25fd35332fd9f04ee9cbb51cb99",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "single-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        20,
+        17,
+        123,
+        146
+      ]
+    ]
+  },
+  {
+    "id": "player_shoot",
+    "url": "/games/balloon-hunters/assets/player_shoot.png",
+    "sourceHash": "39de241ebe12989170a969ae454d3890aa6de76b19fcc673f91e598255932bef",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "single-key-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        22,
+        15,
+        115,
+        150
+      ]
+    ]
+  },
+  {
+    "id": "player_hit",
+    "url": "/games/balloon-hunters/assets/player_hit.png",
+    "sourceHash": "663b275d54f83806682b45388be694caa9c935e5f9fc69b90c6050b48673d365",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "single-key-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        17,
+        18,
+        113,
+        143
+      ]
+    ]
+  },
+  {
+    "id": "player_win",
+    "url": "/games/balloon-hunters/assets/player_win.png",
+    "sourceHash": "e0d7ceb15c930323d0883e208dd84dc5617963d7349aef70392788968ce247ce",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "single-key-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        25,
+        15,
+        117,
+        147
+      ]
+    ]
+  },
+  {
+    "id": "player_lose",
+    "url": "/games/balloon-hunters/assets/player_lose.png",
+    "sourceHash": "ebc81ffbb2277fa0ed206b0e0c44071f67cadf6513b895dc41807fd1d40ca951",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "single-key-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        29,
+        15,
+        104,
+        146
+      ]
+    ]
+  },
+  {
+    "id": "projectile_main",
+    "url": "/games/balloon-hunters/assets/projectile_main.png",
+    "sourceHash": "60078e5e1986544b9ce46e82064d0e9de632d053bf6530159911693b046b0705",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 32,
+      "frameHeight": 96,
+      "frameDurationMs": null,
+      "status": "single-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        5,
+        16,
+        27,
+        74
+      ]
+    ]
+  },
+  {
+    "id": "muzzle_flash",
+    "url": "/games/balloon-hunters/assets/muzzle_flash.png",
+    "sourceHash": "378513e83c4737157cd63da6552a9703aa48ca04d0b1e2a618995f634afdeab8",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "impact_fx",
+    "url": "/games/balloon-hunters/assets/impact_fx.png",
+    "sourceHash": "6a1dba8d421145f283416aa37f91b479a96b52bc755ae2f61b3de6c23ac3d1a6",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "blob_large",
+    "url": "/games/balloon-hunters/assets/blob_large.png",
+    "sourceHash": "34542517f25bdcd795cf7b68b7354ca0ca46399b09221c188eaa6009d11ea235",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "frameDurationMs": null,
+      "status": "static-base-pending-review"
+    },
+    "frameBounds": [
+      [
+        17,
+        35,
+        234,
+        229
+      ]
+    ]
+  },
+  {
+    "id": "blob_medium",
+    "url": "/games/balloon-hunters/assets/blob_medium.png",
+    "sourceHash": "e0253dfc49ef0f8d395c85d0c4ddb8389e7a4eeb0bc868966b0c3f432fe22666",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 160,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "static-base-pending-review"
+    },
+    "frameBounds": [
+      [
+        21,
+        25,
+        136,
+        134
+      ]
+    ]
+  },
+  {
+    "id": "blob_small",
+    "url": "/games/balloon-hunters/assets/blob_small.png",
+    "sourceHash": "910587420b99573e586609f7865e7bc51a139150b09e9f52fb19e5f9597e59c0",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frameDurationMs": null,
+      "status": "static-base-pending-review"
+    },
+    "frameBounds": [
+      [
+        13,
+        17,
+        82,
+        81
+      ]
+    ]
+  },
+  {
+    "id": "blob_split_fx",
+    "url": "/games/balloon-hunters/assets/blob_split_fx.png",
+    "sourceHash": "836a041cfbe12856b9ba8e8cf5a075a205b5098c2bc63ac2df4e38fafedf6f74",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "blob_pop_fx",
+    "url": "/games/balloon-hunters/assets/blob_pop_fx.png",
+    "sourceHash": "f255fb98332c90cc3aea86475817cd2c3b242a796296d46dd3b3e3d9956e4022",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "gravity_device_idle",
+    "url": "/games/balloon-hunters/assets/gravity_device_idle.png",
+    "sourceHash": "03da6754749be82bd22b8ce5bf5e44e5dcb8201ff029758473c0d0a371265016",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "frameDurationMs": null,
+      "status": "static-base-pending-review"
+    },
+    "frameBounds": [
+      [
+        14,
+        28,
+        371,
+        364
+      ]
+    ]
+  },
+  {
+    "id": "gravity_device_ready",
+    "url": "/games/balloon-hunters/assets/gravity_device_ready.png",
+    "sourceHash": "135e096e5d5aae8f37985ccc29242fcc2013faa2b7915970ff6279eeee3ed31a",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "frameDurationMs": null,
+      "status": "single-key-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        13,
+        14,
+        371,
+        372
+      ]
+    ]
+  },
+  {
+    "id": "gravity_device_active",
+    "url": "/games/balloon-hunters/assets/gravity_device_active.png",
+    "sourceHash": "29145aa1d3cd22ada7a8062612db5077520c0899b687db35438d450d99e97d7a",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "frameDurationMs": null,
+      "status": "single-key-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        13,
+        28,
+        371,
+        365
+      ]
+    ]
+  },
+  {
+    "id": "gravity_device_cooldown",
+    "url": "/games/balloon-hunters/assets/gravity_device_cooldown.png",
+    "sourceHash": "73a206090c55cf05490ba32e1c4d45023a29fa889834a57974b40b7fff4f20bb",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "frameDurationMs": null,
+      "status": "single-key-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        13,
+        28,
+        371,
+        365
+      ]
+    ]
+  },
+  {
+    "id": "gravity_field_overlay",
+    "url": "/games/balloon-hunters/assets/gravity_field_overlay.png",
+    "sourceHash": "3920619f67f76bf7070ba41e79daa973b0b7b9ce4d4fa882678dd6871d8f3308",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "gravity_particles",
+    "url": "/games/balloon-hunters/assets/gravity_particles.png",
+    "sourceHash": "d060977666a010365f31abe58ca834d37c9e6984fdc46550ed1891d68db64587",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "arena_floor",
+    "url": "/games/balloon-hunters/assets/arena_floor.png",
+    "sourceHash": "95bed50d873c7ea1e3550fc3e9e921a48100a0e59f5bb6275d390e9b95f3e801",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    }
+  },
+  {
+    "id": "arena_edge_left",
+    "url": "/games/balloon-hunters/assets/arena_edge_left.png",
+    "sourceHash": "d88dee7ceee704eaf83c8f49d8e089809843a7d6f8651c8cabed660294fd32c9",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "arena_edge_right",
+    "url": "/games/balloon-hunters/assets/arena_edge_right.png",
+    "sourceHash": "85122e77a9fd576f99e4ecce6703325a2f7bc598fecf09db6fd987ccf085502b",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "background_sky",
+    "url": "/games/balloon-hunters/assets/background_sky.png",
+    "sourceHash": "97967e723d0051fb232017ca0a60ac9bcf2be39f13bd52a6f70e38e0e5ef47e5",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "background_moon",
+    "url": "/games/balloon-hunters/assets/background_moon.png",
+    "sourceHash": "297fdf36318c00a1c88158a4242c83503533054873676ec8ffe3b4464658dc4e",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "background_floating_islands",
+    "url": "/games/balloon-hunters/assets/background_floating_islands.png",
+    "sourceHash": "056303aae051da4b9833fefde3dfd17834c494d1214957f357fa8a55807a67dc",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "background_ruins_mid",
+    "url": "/games/balloon-hunters/assets/background_ruins_mid.png",
+    "sourceHash": "c8d8027cd654389996d07df9467003aa99182f21efc754ac4360c022ee930073",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "decorative_columns",
+    "url": "/games/balloon-hunters/assets/decorative_columns.png",
+    "sourceHash": "447bd55abcb6d131becfc144bcbd73b8ea347bcafe9fddf67754a2e0059be424",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "decorative_rocks",
+    "url": "/games/balloon-hunters/assets/decorative_rocks.png",
+    "sourceHash": "ad89d42a1ac7778a548f5eefe55c81f165782f9512659662ebcbc4e563101b08",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "hud_panel",
+    "url": "/games/balloon-hunters/assets/hud_panel.png",
+    "sourceHash": "33dc30b721db06beb9bb6b930e8cf91a30c0f5ce893f97fccf39f28b4b0aa65a",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "icon_life",
+    "url": "/games/balloon-hunters/assets/icon_life.png",
+    "sourceHash": "6d90bd00d58629de59fe73d43d99552aa62fd553c3493bf70f9f3921ad970ff2",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "icon_gravity",
+    "url": "/games/balloon-hunters/assets/icon_gravity.png",
+    "sourceHash": "1cd280d6409b90bb828d10a89b40e18335c9884421661c0371439bc7b586e1d4",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "wave_banner",
+    "url": "/games/balloon-hunters/assets/wave_banner.png",
+    "sourceHash": "48f567d658ebf44b06ebd699d46bd97ee5458b977c4be2068674f3bfae150f04",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "score_popup",
+    "url": "/games/balloon-hunters/assets/score_popup.png",
+    "sourceHash": "fc47b1081783fa731f7f38c6dda32bba73d4f81a6cc2b6678113afc586dc7837",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "pause_panel",
+    "url": "/games/balloon-hunters/assets/pause_panel.png",
+    "sourceHash": "0a2e808e914a62082f131b362172f909afb8c83336d72ace8ac12ba10a26fcbd",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "result_panel",
+    "url": "/games/balloon-hunters/assets/result_panel.png",
+    "sourceHash": "6a6411d518bb7ca9908bd3b5d350f56c090ef68b9d183d27ee098a24eb9dee26",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "button_primary",
+    "url": "/games/balloon-hunters/assets/button_primary.png",
+    "sourceHash": "47097357b26db033c97fc483d8d1bf6e9f7721c3a2f7b673361cae255f808394",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "button_secondary",
+    "url": "/games/balloon-hunters/assets/button_secondary.png",
+    "sourceHash": "3523ed815e1128163c94ca1cfc843519280b129b946added0d702645a307d67c",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "dust_land",
+    "url": "/games/balloon-hunters/assets/dust_land.png",
+    "sourceHash": "ddc8e4d26c9e8296916e7170d918a76616f1443700ed7cebc83f27cbc2d1ceef",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameDurationMs": null,
+      "status": "single-effect-texture-pending-review"
+    },
+    "frameBounds": [
+      [
+        24,
+        69,
+        104,
+        97
+      ]
+    ]
+  },
+  {
+    "id": "hit_flash",
+    "url": "/games/balloon-hunters/assets/hit_flash.png",
+    "sourceHash": "2e9dee21e3debdd3273869577edb68e1ceb052bde54cf8f162dc4e072b4b7736",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "combo_burst",
+    "url": "/games/balloon-hunters/assets/combo_burst.png",
+    "sourceHash": "002b9a0fa24bf0099b39d9bc1b32a5311d4f4e91952e703d1ce1800c42be0daa",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "energy_spark",
+    "url": "/games/balloon-hunters/assets/energy_spark.png",
+    "sourceHash": "02084124920c892df72f6198af4295bc9b1df19aa11ec2b21a9c1a07355aad58",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "blob_large_squash",
+    "url": "/games/balloon-hunters/assets/blob_large_squash.png",
+    "sourceHash": "b984aff2c46d16040bc13c6dbf69d8aa5d30202881dae0edb3bb255aa51fa26e",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "frameDurationMs": null,
+      "status": "single-key-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        15,
+        114,
+        248,
+        230
+      ]
+    ]
+  },
+  {
+    "id": "blob_medium_squash",
+    "url": "/games/balloon-hunters/assets/blob_medium_squash.png",
+    "sourceHash": "312fb071e76a81b254886a4d46b3886b248b954bf11770cbd28ceb0764889a82",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 160,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "single-key-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        9,
+        74,
+        154,
+        141
+      ]
+    ]
+  },
+  {
+    "id": "blob_small_squash",
+    "url": "/games/balloon-hunters/assets/blob_small_squash.png",
+    "sourceHash": "8907dcc1d6e475304b64ed367ff5910d9876eb5fa5486f10a48c99b4c71e060f",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frameDurationMs": null,
+      "status": "single-key-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        7,
+        32,
+        94,
+        76
+      ]
+    ]
+  },
+  {
+    "id": "player_run_cycle",
+    "url": "/games/balloon-hunters/assets/player_run_cycle.png",
+    "sourceHash": "50a9ba4c0969bc157499daa97898f52b76f2f1216569a0460291eddc7d94450a",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": 110,
+      "status": "approved-selected-with-known-head-pivot"
+    },
+    "frameBounds": [
+      [
+        6,
+        19,
+        117,
+        149
+      ],
+      [
+        7,
+        19,
+        104,
+        152
+      ],
+      [
+        15,
+        12,
+        122,
+        144
+      ],
+      [
+        11,
+        12,
+        111,
+        145
+      ]
+    ]
+  },
+  {
+    "id": "player_shoot_cycle",
+    "url": "/games/balloon-hunters/assets/player_shoot_cycle.png",
+    "sourceHash": "806e2ed7369c22ec68145dc8549777615013f6e64c0deecc03949ab33f9e34e4",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationsMs": [
+        320,
+        60,
+        80,
+        320
+      ],
+      "status": "approved-visual-sequence"
+    },
+    "frameBounds": [
+      [
+        22,
+        15,
+        115,
+        150
+      ],
+      [
+        22,
+        22,
+        126,
+        150
+      ],
+      [
+        22,
+        17,
+        119,
+        150
+      ],
+      [
+        22,
+        15,
+        115,
+        150
+      ]
+    ]
+  },
+  {
+    "id": "player_hit_reaction",
+    "url": "/games/balloon-hunters/assets/player_hit_reaction.png",
+    "sourceHash": "c031db4d634f8597ee67ff8f5a272d19e2abc4360a51ca8cd262eb7e60df3e62",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationsMs": [
+        450,
+        80,
+        120,
+        450
+      ],
+      "status": "approved-visual-sequence"
+    },
+    "frameBounds": [
+      [
+        22,
+        17,
+        116,
+        146
+      ],
+      [
+        11,
+        23,
+        109,
+        147
+      ],
+      [
+        16,
+        21,
+        112,
+        146
+      ],
+      [
+        22,
+        17,
+        116,
+        146
+      ]
+    ]
+  },
+  {
+    "id": "player_lose_gesture",
+    "url": "/games/balloon-hunters/assets/player_lose_gesture.png",
+    "sourceHash": "61f16221ab4832151d7e501473853ca058a257d4487ac64303a24d9bc37e40d5",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationsMs": [
+        550,
+        120,
+        200,
+        450
+      ],
+      "status": "approved-visual-sequence"
+    },
+    "frameBounds": [
+      [
+        29,
+        15,
+        104,
+        146
+      ],
+      [
+        29,
+        16,
+        104,
+        146
+      ],
+      [
+        29,
+        17,
+        104,
+        146
+      ],
+      [
+        29,
+        15,
+        104,
+        146
+      ]
+    ]
+  },
+  {
+    "id": "player_win_jump",
+    "url": "/games/balloon-hunters/assets/player_win_jump.png",
+    "sourceHash": "775bb01d795a081929a9982928f469d912eda12f15f45bb489c1b7c922963cf6",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 2,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "approved-two-pose-jump"
+    },
+    "frameBounds": [
+      [
+        9,
+        30,
+        104,
+        154
+      ],
+      [
+        7,
+        11,
+        106,
+        153
+      ]
+    ]
+  },
+  {
+    "id": "blob_large_bounce",
+    "url": "/games/balloon-hunters/assets/blob_large_bounce.png",
+    "sourceHash": "58f554af3ca2d2a7e7bdf1de79a4fa6410fe2d81f5102c075712d5fecebc101c",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 3,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "frameDurationMs": null,
+      "status": "approved-three-bounce-poses"
+    },
+    "frameBounds": [
+      [
+        17,
+        35,
+        234,
+        229
+      ],
+      [
+        27,
+        11,
+        223,
+        229
+      ],
+      [
+        15,
+        114,
+        248,
+        230
+      ]
+    ]
+  },
+  {
+    "id": "blob_medium_bounce",
+    "url": "/games/balloon-hunters/assets/blob_medium_bounce.png",
+    "sourceHash": "f61cc1412897e7eec4e79b1c7a46890bdc0afdd76f05e0075cd3688055466810",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 3,
+      "frameWidth": 160,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "approved-three-bounce-poses"
+    },
+    "frameBounds": [
+      [
+        21,
+        25,
+        136,
+        134
+      ],
+      [
+        26,
+        11,
+        131,
+        134
+      ],
+      [
+        9,
+        74,
+        154,
+        141
+      ]
+    ]
+  },
+  {
+    "id": "blob_small_bounce",
+    "url": "/games/balloon-hunters/assets/blob_small_bounce.png",
+    "sourceHash": "781d8884888b45f984845bf994e1630c3b2dda8e1c97e6c8462269cea2a90f57",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 3,
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frameDurationMs": null,
+      "status": "approved-three-bounce-poses"
+    },
+    "frameBounds": [
+      [
+        13,
+        17,
+        82,
+        81
+      ],
+      [
+        17,
+        10,
+        78,
+        82
+      ],
+      [
+        7,
+        32,
+        94,
+        76
+      ]
+    ]
+  },
+  {
+    "id": "blob_split_sequence",
+    "url": "/games/balloon-hunters/assets/blob_split_sequence.png",
+    "sourceHash": "a65d5034937a08146d9b03bbc2d654ef7b79a9acebcc6de932fe18e4fb7e5d7f",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameDurationsMs": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "status": "approved-visual-sequence-pending-in-game-review"
+    },
+    "frameBounds": [
+      [
+        43,
+        35,
+        84,
+        92
+      ],
+      [
+        37,
+        26,
+        90,
+        101
+      ],
+      [
+        31,
+        18,
+        97,
+        110
+      ],
+      null
+    ]
+  },
+  {
+    "id": "blob_pop_sequence",
+    "url": "/games/balloon-hunters/assets/blob_pop_sequence.png",
+    "sourceHash": "5047e27f8b11f1f94c831dad335219706c358002e6580ef137880a3fb0fbd130",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameDurationsMs": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "status": "approved-visual-sequence-pending-in-game-review"
+    },
+    "frameBounds": [
+      [
+        41,
+        41,
+        86,
+        86
+      ],
+      [
+        35,
+        35,
+        92,
+        92
+      ],
+      [
+        29,
+        29,
+        99,
+        99
+      ],
+      null
+    ]
+  },
+  {
+    "id": "gravity_ready_loop",
+    "url": "/games/balloon-hunters/assets/gravity_ready_loop.png",
+    "sourceHash": "a39f3d38c286bdde11043f6cc93bc3b3cca45711fc9e95a95897913c5ade63ef",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 4,
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "frameDurationMs": 120,
+      "grid": [
+        4,
+        1
+      ],
+      "status": "approved-visual-loop"
+    },
+    "frameBounds": [
+      [
+        13,
+        14,
+        371,
+        372
+      ],
+      [
+        13,
+        14,
+        371,
+        372
+      ],
+      [
+        13,
+        14,
+        371,
+        372
+      ],
+      [
+        13,
+        14,
+        371,
+        372
+      ]
+    ]
+  },
+  {
+    "id": "gravity_active_loop",
+    "url": "/games/balloon-hunters/assets/gravity_active_loop.png",
+    "sourceHash": "2d9696fe7610d879ac6d0ddc76ca087a5349b1711dadfe2ec9ba402fb974184c",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 8,
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "frameDurationMs": 120,
+      "grid": [
+        4,
+        2
+      ],
+      "status": "approved-visual-loop"
+    },
+    "frameBounds": [
+      [
+        13,
+        28,
+        371,
+        365
+      ],
+      [
+        13,
+        28,
+        371,
+        365
+      ],
+      [
+        13,
+        28,
+        371,
+        365
+      ],
+      [
+        13,
+        28,
+        371,
+        365
+      ],
+      [
+        13,
+        28,
+        371,
+        365
+      ],
+      [
+        13,
+        28,
+        371,
+        365
+      ],
+      [
+        13,
+        28,
+        371,
+        365
+      ],
+      [
+        13,
+        28,
+        371,
+        365
+      ]
+    ]
+  },
+  {
+    "id": "gravity_activate_transition",
+    "url": "/games/balloon-hunters/assets/gravity_activate_transition.png",
+    "sourceHash": "24196edd03e1dca1517cdd82179e86521f544c7fadbe8cec46840160afc25abe",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 4,
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "grid": [
+        4,
+        1
+      ],
+      "frameDurationMs": null,
+      "status": "approved-visual-transition"
+    },
+    "frameBounds": [
+      [
+        13,
+        15,
+        371,
+        371
+      ],
+      [
+        13,
+        16,
+        371,
+        370
+      ],
+      [
+        13,
+        18,
+        371,
+        367
+      ],
+      [
+        13,
+        28,
+        371,
+        365
+      ]
+    ]
+  },
+  {
+    "id": "gravity_recharge_transition",
+    "url": "/games/balloon-hunters/assets/gravity_recharge_transition.png",
+    "sourceHash": "2fd10f831f7150f7206d958592bde8b4de187a391e6a15b3f749dc8fe614c2e9",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 8,
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "grid": [
+        4,
+        2
+      ],
+      "frameDurationMs": null,
+      "status": "approved-visual-transition"
+    },
+    "frameBounds": [
+      [
+        13,
+        28,
+        371,
+        365
+      ],
+      [
+        13,
+        28,
+        371,
+        365
+      ],
+      [
+        13,
+        28,
+        371,
+        365
+      ],
+      [
+        13,
+        28,
+        371,
+        365
+      ],
+      [
+        13,
+        19,
+        371,
+        365
+      ],
+      [
+        13,
+        17,
+        371,
+        369
+      ],
+      [
+        13,
+        15,
+        371,
+        371
+      ],
+      [
+        13,
+        15,
+        371,
+        371
+      ]
+    ]
+  },
+  {
+    "id": "muzzle_sequence",
+    "url": "/games/balloon-hunters/assets/muzzle_sequence.png",
+    "sourceHash": "6a6163e236f53b5ba3ddec6cb58dabbaa0d07f106986ac0365e0d3e462487059",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameDurationsMs": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "status": "approved-visual-sequence-pending-in-game-review"
+    },
+    "frameBounds": [
+      [
+        38,
+        30,
+        90,
+        91
+      ],
+      [
+        28,
+        16,
+        100,
+        102
+      ],
+      [
+        24,
+        10,
+        103,
+        106
+      ],
+      null
+    ]
+  },
+  {
+    "id": "impact_sequence",
+    "url": "/games/balloon-hunters/assets/impact_sequence.png",
+    "sourceHash": "cdc024c76e1281efc3d1f9b6771440faf6f5fe24aa85107a32d143b244ac0200",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameDurationsMs": [
+        40,
+        40,
+        40,
+        60
+      ],
+      "status": "approved-visual-sequence-pending-in-game-review"
+    },
+    "frameBounds": [
+      [
+        41,
+        44,
+        86,
+        83
+      ],
+      [
+        34,
+        38,
+        93,
+        89
+      ],
+      [
+        28,
+        33,
+        100,
+        95
+      ],
+      null
+    ]
+  },
+  {
+    "id": "button_primary_states",
+    "url": "/games/balloon-hunters/assets/button_primary_states.png",
+    "sourceHash": "b2b16597d1e411d5350a33adb8e644cd176ceb4b3487ffa532c7d7b2d305524f",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "stateLayout": {
+      "order": [
+        "normal",
+        "highlight",
+        "pressed",
+        "disabled"
+      ],
+      "cellWidth": 256,
+      "cellHeight": 96,
+      "grid": [
+        4,
+        1
+      ]
+    },
+    "stateUrls": {
+      "normal": "/games/balloon-hunters/assets/button_primary_states-normal.png",
+      "highlight": "/games/balloon-hunters/assets/button_primary_states-highlight.png",
+      "pressed": "/games/balloon-hunters/assets/button_primary_states-pressed.png",
+      "disabled": "/games/balloon-hunters/assets/button_primary_states-disabled.png"
+    }
+  },
+  {
+    "id": "button_secondary_states",
+    "url": "/games/balloon-hunters/assets/button_secondary_states.png",
+    "sourceHash": "64fb7fee1b0f1dd59a95fc392f5580efa83ac316dbaa0eddc383dff41ae30df6",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "stateLayout": {
+      "order": [
+        "normal",
+        "highlight",
+        "pressed",
+        "disabled"
+      ],
+      "cellWidth": 256,
+      "cellHeight": 96,
+      "grid": [
+        4,
+        1
+      ]
+    },
+    "stateUrls": {
+      "normal": "/games/balloon-hunters/assets/button_secondary_states-normal.png",
+      "highlight": "/games/balloon-hunters/assets/button_secondary_states-highlight.png",
+      "pressed": "/games/balloon-hunters/assets/button_secondary_states-pressed.png",
+      "disabled": "/games/balloon-hunters/assets/button_secondary_states-disabled.png"
+    }
+  },
+  {
+    "id": "hunter",
+    "url": "/games/balloon-hunters/assets/player_idle.png",
+    "sourceHash": "ddb18f6883f812f25ab331dd978b0fac5dddd4c08706868cb72c6ea9441212c3",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 1
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 128,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "static-base-pending-review"
+    },
+    "frameBounds": [
+      [
+        22,
+        17,
+        116,
+        146
+      ]
+    ],
+    "aliasOf": "player_idle"
+  },
+  {
+    "id": "creature-large",
+    "url": "/games/balloon-hunters/assets/blob_large.png",
+    "sourceHash": "34542517f25bdcd795cf7b68b7354ca0ca46399b09221c188eaa6009d11ea235",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "frameDurationMs": null,
+      "status": "static-base-pending-review"
+    },
+    "frameBounds": [
+      [
+        17,
+        35,
+        234,
+        229
+      ]
+    ],
+    "aliasOf": "blob_large"
+  },
+  {
+    "id": "creature-medium",
+    "url": "/games/balloon-hunters/assets/blob_medium.png",
+    "sourceHash": "e0253dfc49ef0f8d395c85d0c4ddb8389e7a4eeb0bc868966b0c3f432fe22666",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 160,
+      "frameHeight": 160,
+      "frameDurationMs": null,
+      "status": "static-base-pending-review"
+    },
+    "frameBounds": [
+      [
+        21,
+        25,
+        136,
+        134
+      ]
+    ],
+    "aliasOf": "blob_medium"
+  },
+  {
+    "id": "creature-small",
+    "url": "/games/balloon-hunters/assets/blob_small.png",
+    "sourceHash": "910587420b99573e586609f7865e7bc51a139150b09e9f52fb19e5f9597e59c0",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frameDurationMs": null,
+      "status": "static-base-pending-review"
+    },
+    "frameBounds": [
+      [
+        13,
+        17,
+        82,
+        81
+      ]
+    ],
+    "aliasOf": "blob_small"
+  },
+  {
+    "id": "projectile",
+    "url": "/games/balloon-hunters/assets/projectile_main.png",
+    "sourceHash": "60078e5e1986544b9ce46e82064d0e9de632d053bf6530159911693b046b0705",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "animation": {
+      "frameCount": 1,
+      "frameWidth": 32,
+      "frameHeight": 96,
+      "frameDurationMs": null,
+      "status": "single-pose-pending-review"
+    },
+    "frameBounds": [
+      [
+        5,
+        16,
+        27,
+        74
+      ]
+    ],
+    "aliasOf": "projectile_main"
+  },
+  {
+    "id": "gravity-field",
+    "url": "/games/balloon-hunters/assets/gravity_field_overlay.png",
+    "sourceHash": "3920619f67f76bf7070ba41e79daa973b0b7b9ce4d4fa882678dd6871d8f3308",
+    "status": "approved",
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "aliasOf": "gravity_field_overlay"
+  }
+]

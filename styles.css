@@ -194,6 +194,40 @@ figcaption { display: flex; align-items: center; gap: 14px; padding: 17px 2px; f
 @media (max-width: 380px) {
     .game-copy { padding: 24px; }
 }
+/* Play reuses the studio palette and the approved game cover. */
+[hidden] { display: none !important; }
+button { font: inherit; cursor: pointer; }
+button:focus-visible, iframe:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+nav a[aria-current] { color: var(--accent); }
+.play-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.play-card { min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: #1a1e2b; }
+.play-card > img, .play-placeholder { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.play-copy { padding: 24px; }
+.play-copy h3 { margin: 16px 0; font-size: 1.5rem; }
+.play-copy p, .play-note, .play-controls p { color: var(--muted); }
+.play-copy .button { margin-top: 24px; }
+.play-placeholder { display: grid; place-items: center; color: var(--line); font-size: 4rem; background: var(--surface); }
+.play-soon { border-style: dashed; }
+.player-section { border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--background); }
+.player-stage { position: relative; aspect-ratio: 16/9; background: #09121f; }
+.player-stage > img, .player-stage iframe { width: 100%; height: 100%; border: 0; object-fit: contain; }
+.player-toolbar { display: flex; flex-wrap: wrap; gap: 12px; padding: 16px; }
+.player-section [role="status"] { padding: 0 16px 16px; min-height: 2em; }
+.player-section:fullscreen { width: 100%; height: 100%; border: 0; border-radius: 0; display: flex; flex-direction: column; }
+.player-section:fullscreen .player-stage { flex: 1; min-height: 0; aspect-ratio: auto; }
+.player-section:fullscreen .player-toolbar { padding: 8px; }
+.player-section:fullscreen [role="status"] { padding-bottom: 4px; }
+.play-note { margin-block: 20px 40px; }
+.play-controls { max-width: 790px; }
+.play-controls p { margin-top: 20px; }
+@media (max-width: 1000px) { .play-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) {
+    .play-grid { grid-template-columns: 1fr; }
+    nav { gap: 0; }
+    nav a { padding-inline: 6px; font-size: .82rem; }
+    .player-toolbar { gap: 8px; padding: 10px; }
+    .player-toolbar .button { padding-inline: 12px; }
+}
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
     *, *::before, *::after { transition: none !important; }
