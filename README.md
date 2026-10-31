@@ -45,3 +45,5 @@ La revisión actual está en `docs/review-v003.md`; las pasadas anteriores se co
 Rutas: /play/, /play/balloon-hunters/ y sus equivalentes /es/play/ y /es/play/balloon-hunters/. Balloon Hunters está integrado con el build real; los otros dos juegos se muestran como Coming soon. Textos en content/site.json, plantillas en scripts/build.mjs y rutas en scripts/pages.mjs. La home y la navegación enlazan Play.
 
 Cambios sin publicar, pendientes de revisión. Ver docs/review-play-v001.md para procedencia, pruebas y límites. No enviar a main hasta revisar: GitHub Pages publica automáticamente. Para previsualizar en otro puerto en PowerShell: $env:PORT=8097; node scripts/serve.mjs.
+
+El reproductor solicita pantalla completa al pulsar Jugar, intenta orientación horizontal y ofrece un modo ampliado si el navegador rechaza la API. El overlay de carga espera al menú real del juego mediante su marcador de escena; iframe load no basta. Véase `docs/review-play-mobile-v002.md` para pruebas y límites de móvil. Al renovar el build, comprobar también esa señal de disponibilidad.
