@@ -1,11 +1,12 @@
 export const languages = ['en', 'es'];
-export const pageTypes = ['home', 'pawpal', 'seacurrent', 'privacy', 'play', 'balloon-hunters'];
+export const playablePages = ['balloon-hunters', 'dream-runner'];
+export const pageTypes = ['home', 'pawpal', 'seacurrent', 'privacy', 'play', ...playablePages];
 
 export function pageUrl(lang, page = 'home') {
     if (page === 'home') return lang === 'es' ? '/es/index.html' : '/';
     if (page === 'privacy') return `/${lang}/privacy-policy.html`;
-    if (page === 'play' || page === 'balloon-hunters') {
-        return `${lang === 'es' ? '/es' : ''}/play/${page === 'play' ? '' : 'balloon-hunters/'}`;
+    if (page === 'play' || playablePages.includes(page)) {
+        return `${lang === 'es' ? '/es' : ''}/play/${page === 'play' ? '' : `${page}/`}`;
     }
     return `/${lang}/${page}/`;
 }

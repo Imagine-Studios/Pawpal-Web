@@ -30,7 +30,8 @@ for (const {file:page} of pages) {
     for (const match of html.matchAll(/(?:src|href|poster)="([^"<>]+)"/g)) {
         const reference = match[1].replace(/^https:\/\/oru\.studio/, '');
         if (/^(https?:|mailto:)/.test(reference)) continue;
-        const [pathname, anchor] = reference.split('#');
+        const [urlPath, anchor] = reference.split('#');
+        const pathname = urlPath.split('?')[0];
         const target = pathname ? pathname.replace(/^\//,'') + (pathname.endsWith('/') ? 'index.html' : '') : page;
         if (!await existsExact(target)) {
             errors.push(`${page}: missing local file ${reference}`);

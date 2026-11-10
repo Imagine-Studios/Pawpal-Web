@@ -113,9 +113,9 @@
     },
     "play": {
       "title": "Play — Oru Studio",
-      "description": "Play Balloon Hunters in your browser and discover upcoming minigames from Oru Studio.",
+      "description": "Play Balloon Hunters and Dream Runner in your browser. Small arcade breaks from Oru Studio.",
       "heading": "Small breaks. Big challenges.",
-      "intro": "Jump into Balloon Hunters, our browser arcade game. Two more minigames are on the way.",
+      "intro": "Jump into Balloon Hunters or join Max in Dream Runner, a standalone web demo from PawPal.",
       "available": "Available now",
       "soon": "Coming soon",
       "soonText": "Another minigame is on the way.",
@@ -141,7 +141,18 @@
       "storage": "Local scores stay on this device and are not shared with CrazyGames. An unfinished run is not saved.",
       "nojs": "Enable JavaScript to play here, or open the game separately.",
       "gameAlt": "Balloon Hunters: energy launcher and bouncing creatures among floating ruins.",
-      "rotate": "Rotate your phone to make the most of the landscape view."
+      "rotate": "Rotate your phone to make the most of the landscape view.",
+      "dreamRunner": {
+        "available": "Web demo",
+        "action": "Play Dream Runner",
+        "summary": "Run through Max’s dream, switch lanes, jump fences and collect bones before time runs out.",
+        "gameTitle": "Dream Runner — Play | Oru Studio",
+        "gameAlt": "Dream Runner: Max jumping along a purple path beneath the moon.",
+        "note": "A standalone web demo of PawPal’s Dream Runner minigame. Play in landscape mode on mobile. Escape pauses; in fullscreen, Escape exits fullscreen first.",
+        "desktop": "Keyboard and mouse: switch lanes with A/D or Left/Right Arrow. Jump with Space, W, Up Arrow or a click outside the interface. Escape pauses.",
+        "mobile": "Touchscreen: swipe left or right to switch lanes. Tap or swipe up to jump. Use the cloud Pause button to pause.",
+        "storage": "This demo does not use your PawPal save and does not save your score. No login is required."
+      }
     }
   },
   "es": {
@@ -258,9 +269,9 @@
     },
     "play": {
       "title": "Play — Minijuegos de Oru Studio",
-      "description": "Juega a Balloon Hunters en tu navegador y descubre los próximos minijuegos de Oru Studio.",
+      "description": "Juega a Balloon Hunters y Dream Runner en tu navegador. Pequeñas pausas arcade de Oru Studio.",
       "heading": "Pequeñas pausas. Grandes retos.",
-      "intro": "Prueba Balloon Hunters, nuestro arcade para navegador. Otros dos minijuegos están en camino.",
+      "intro": "Prueba Balloon Hunters o acompaña a Max en Dream Runner, una demo web independiente de PawPal.",
       "available": "Disponible",
       "soon": "Coming soon",
       "soonText": "Otro minijuego está en camino.",
@@ -286,7 +297,18 @@
       "storage": "Las puntuaciones se quedan en este dispositivo y no se comparten con CrazyGames. Las partidas en curso no se guardan.",
       "nojs": "Activa JavaScript para jugar aquí o abre el juego por separado.",
       "gameAlt": "Balloon Hunters: lanzador de energía y criaturas que rebotan entre ruinas flotantes.",
-      "rotate": "Gira el móvil para aprovechar la pantalla en horizontal."
+      "rotate": "Gira el móvil para aprovechar la pantalla en horizontal.",
+      "dreamRunner": {
+        "available": "Demo web",
+        "action": "Jugar a Dream Runner",
+        "summary": "Corre por el sueño de Max, cambia de carril, salta vallas y recoge huesos antes de que se agote el tiempo.",
+        "gameTitle": "Dream Runner — Jugar | Oru Studio",
+        "gameAlt": "Dream Runner: Max salta por un camino morado bajo la luna.",
+        "note": "Una demo web independiente del minijuego Dream Runner de PawPal. En móvil, juega en horizontal. Escape pausa; en pantalla completa, primero sale de ese modo.",
+        "desktop": "Teclado y ratón: cambia de carril con A/D o las flechas izquierda/derecha. Salta con Espacio, W, flecha arriba o un clic fuera de la interfaz. Escape pausa.",
+        "mobile": "Pantalla táctil: desliza a izquierda o derecha para cambiar de carril. Toca o desliza hacia arriba para saltar. Usa el botón de pausa con forma de nube para pausar.",
+        "storage": "Esta demo no utiliza tu partida de PawPal ni guarda la puntuación. No necesita iniciar sesión."
+      }
     }
   }
 }

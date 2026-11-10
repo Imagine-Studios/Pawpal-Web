@@ -40,8 +40,10 @@ async function collapse() {
 function ready() {
     if (!active) return;
     const doc = frame.contentDocument;
-    // The existing game marks its scene after boot. Iframe load/canvas creation is too early.
-    if (!doc?.body.dataset.scene || doc.body.dataset.scene === 'Boot' || !doc.querySelector('#game canvas') || !doc.querySelector('#ui .panel')) return;
+    // Wait for the game's real readiness signal, not just iframe load/canvas creation.
+    const unityReady = doc?.body.dataset.gameReady === 'true' && doc.querySelector('#unity-canvas');
+    const arcadeReady = doc?.body.dataset.scene && doc.body.dataset.scene !== 'Boot' && doc.querySelector('#game canvas') && doc.querySelector('#ui .panel');
+    if (!unityReady && !arcadeReady) return;
     observer?.disconnect();
     clearTimeout(timer);
     loading.hidden = true;
@@ -69,7 +71,7 @@ launch.addEventListener('click', () => {
     fullscreen.hidden = false;
     frame.hidden = false;
     expand();
-    timer = setTimeout(delayed, 30000);
+    timer = setTimeout(delayed, Number(player.dataset.loadTimeout) || 30000);
     frame.src = frame.dataset.src;
 });
 
@@ -77,7 +79,7 @@ frame.addEventListener('load', () => {
     observer?.disconnect();
     if (!active || !frame.contentDocument?.body) return;
     observer = new MutationObserver(ready);
-    observer.observe(frame.contentDocument.body, {attributes: true, attributeFilter: ['data-scene'], childList: true, subtree: true});
+    observer.observe(frame.contentDocument.body, {attributes: true, attributeFilter: ['data-scene', 'data-game-ready'], childList: true, subtree: true});
     ready();
 });
 frame.addEventListener('error', delayed);
